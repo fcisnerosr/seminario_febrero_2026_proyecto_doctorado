@@ -43,7 +43,8 @@
 
     {\bfseries \textit{EVALUACION DE DESEMPEÑO}} \\
     \vspace{0.1cm}
-    Trabajo de Investigacion de Doctorado
+    Trabajo de Investigacion de Doctorado \\
+    {\footnotesize 8vo Semestre}
 
     \vspace{0.4cm}
 
@@ -53,14 +54,15 @@
 
     \vspace{0.4cm}
 
-    \textbf{M. I. Francisco Cisneros}
+    \textbf{M. I. Francisco Cisneros} \\
+    {\footnotesize Ingeniero Civil}
 
     \vfill
 
     {\footnotesize
     Directores: Dr. Ivan Felix Gonzalez y Dr. Rolando Salgado Estrada \\
     \vspace{0.1cm}
-    Periodo: Invierno 2025
+    Periodo: Verano 2026
     }
     \vspace{0.2cm}
 \end{frame}
@@ -68,16 +70,6 @@
 % Indice
 \begin{frame}{Contenido}
     \tableofcontents
-\end{frame}
-
-% Seccion 1: Eleccion del Tema
-\section{Eleccion del Tema}
-\begin{frame}{Eleccion del Tema}
-    \begin{itemize}
-        \item \textbf{Titulo:} Monitoreo de Salud Estructural (SHM) basado en optimizacion inversa para la identificacion de daño en plataformas tipo Jacket.
-        \item \textbf{Enfoque:} Desarrollo de una metodologia no destructiva basada en vibraciones y algoritmos geneticos (AG).
-        \item \textbf{Innovacion:} Introduccion del Indice de Calidad de Deteccion (ICD) para mitigar la incertidumbre en entornos ruidosos.
-    \end{itemize}
 \end{frame}
 
 % Seccion 2: Justificacion
@@ -89,7 +81,7 @@
             \item \textbf{Infraestructura Envejecida:} Gran parte de las plataformas en el Golfo de Mexico han superado su vida util de diseño.
             \item \textbf{Costos y Riesgos:} Las inspecciones tradicionales (buzos, ROV) son costosas y peligrosas.
             \item \textbf{Limitaciones Actuales:} Dificultad para detectar daños internos o en etapas tempranas mediante inspeccion visual.
-            \item \textbf{Necesidad:} Estrategias de mantenimiento predictivo basadas en datos (SHM).
+            \item \textbf{Necesidad:} Estrategias de mantenimiento basadas en datos (SHM).
         \end{itemize}
         
         \column{0.5\textwidth}
@@ -213,27 +205,10 @@
 \end{frame}
 
 \begin{frame}{Optimizacion con Algoritmos Geneticos}
-    \begin{columns}
-        \column{0.5\textwidth}
-        \begin{itemize}
-            \item \textbf{Problema Inverso:} Ajuste de modelo para coincidir con respuesta medida.
-            \item \textbf{Busqueda Global:} AG robustos ante minimos locales.
-            \item \textbf{Funcion Objetivo:} Minimizacion del error entre modelo y realidad (o simulacion dañada).
-        \end{itemize}
-        
-        \column{0.5\textwidth}
-        \begin{figure}
-            \includegraphics[width=\linewidth]{006_metodología_del_AG_para_localizar_daños_a_nivel_computacional.jpg}
-            \caption{Flujo del Algoritmo Genetico.}
-        \end{figure}
-    \end{columns}
-\end{frame}
-
-\begin{frame}{Funcionamiento del AG y Metrica}
     \begin{figure}
         \centering
-        \includegraphics[width=0.65\linewidth]{015_diagrama_como_funciona_el_AG_para_la_sumas_funcion_P_y_como_se_relaciona_con_operadores_geneticos_del_AG.jpg}
-        \caption{Operadores geneticos y evaluacion de la funcion objetivo (ICD).}
+        \includegraphics[width=0.7\linewidth]{006_metodología_del_AG_para_localizar_daños_a_nivel_computacional.jpg}
+        \caption{Flujo del Algoritmo Genetico.}
     \end{figure}
 \end{frame}
 
@@ -365,6 +340,7 @@
         \item Validacion experimental en tanque de olas.
         \item Extension a estructuras eolicas offshore.
         \item Integracion de algoritmos de Machine Learning hibridos para acelerar la convergencia del AG.
+        \item Aplicacion de la metodologia a modelos de plataformas reales.
     \end{itemize}
 \end{frame}
 
@@ -379,12 +355,4 @@
     \end{thebibliography}
 \end{frame}
 
-\begin{frame}
-    \centering
-    \Huge \textbf{Gracias por su atencion}
-\end{frame}
-
 \end{document}
-
-% Comando para compilar:
-% pdflatex presentacion.tex && pdflatex presentacion.tex
