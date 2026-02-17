@@ -1,0 +1,390 @@
+\documentclass[aspectratio=169]{beamer}
+
+% Paquetes
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{subcaption}
+
+% Tema
+\usetheme{Madrid}
+\useoutertheme[subsection=false]{miniframes} % Agrega la barra de navegacion con "bolitas"
+
+% Metadatos
+\title[SHM en Plataformas Jacket]{Desarrollo de una metodologia para la deteccion de daño en plataformas marinas fijas por medio de analisis de vibraciones}
+\subtitle{Evaluacion de Desempeño - Trabajo de Investigacion de Doctorado}
+\author{M. I. Francisco Cisneros}
+\institute{
+    Coordinacion Academica del Posgrado \\
+    Direccion de Desarrollo de Talento \\
+    \vspace{0.2cm}
+    \textbf{Directores:} Dr. Ivan Felix Gonzalez y Dr. Rolando Salgado Estrada
+}
+\date{19 de Febrero de 2026}
+
+% Configuracion de imagenes
+\graphicspath{{./figs/}}
+
+\begin{document}
+
+% Portada Personalizada
+\begin{frame}[plain]
+    \centering
+    \includegraphics[height=1.3cm]{000_logo.png}
+    \vspace{0.2cm}
+
+    \vspace{0.1cm}
+    {\footnotesize Coordinacion Academica del Posgrado} \\
+    {\footnotesize Direccion de Desarrollo de Talento}
+
+    \vspace{0.6cm}
+
+    {\bfseries \textit{EVALUACION DE DESEMPEÑO}} \\
+    \vspace{0.1cm}
+    Trabajo de Investigacion de Doctorado
+
+    \vspace{0.4cm}
+
+    \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+        \usebeamerfont{title}Desarrollo de una metodologia para la deteccion de daño en plataformas marinas fijas por medio de analisis de vibraciones\par
+    \end{beamercolorbox}
+
+    \vspace{0.4cm}
+
+    \textbf{M. I. Francisco Cisneros}
+
+    \vfill
+
+    {\footnotesize
+    Directores: Dr. Ivan Felix Gonzalez y Dr. Rolando Salgado Estrada \\
+    \vspace{0.1cm}
+    Periodo: Invierno 2025
+    }
+    \vspace{0.2cm}
+\end{frame}
+
+% Indice
+\begin{frame}{Contenido}
+    \tableofcontents
+\end{frame}
+
+% Seccion 1: Eleccion del Tema
+\section{Eleccion del Tema}
+\begin{frame}{Eleccion del Tema}
+    \begin{itemize}
+        \item \textbf{Titulo:} Monitoreo de Salud Estructural (SHM) basado en optimizacion inversa para la identificacion de daño en plataformas tipo Jacket.
+        \item \textbf{Enfoque:} Desarrollo de una metodologia no destructiva basada en vibraciones y algoritmos geneticos (AG).
+        \item \textbf{Innovacion:} Introduccion del Indice de Calidad de Deteccion (ICD) para mitigar la incertidumbre en entornos ruidosos.
+    \end{itemize}
+\end{frame}
+
+% Seccion 2: Justificacion
+\section{Justificacion}
+\begin{frame}{Justificacion del Problema}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \begin{itemize}
+            \item \textbf{Infraestructura Envejecida:} Gran parte de las plataformas en el Golfo de Mexico han superado su vida util de diseño.
+            \item \textbf{Costos y Riesgos:} Las inspecciones tradicionales (buzos, ROV) son costosas y peligrosas.
+            \item \textbf{Limitaciones Actuales:} Dificultad para detectar daños internos o en etapas tempranas mediante inspeccion visual.
+            \item \textbf{Necesidad:} Estrategias de mantenimiento predictivo basadas en datos (SHM).
+        \end{itemize}
+        
+        \column{0.5\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.8\linewidth]{001_plataformas_con_abolladuras_al_borde_copaso.png}
+            \caption{Deterioro en plataformas marinas.}
+        \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Deterioro Estructural}
+    \begin{figure}
+        \centering
+        \begin{subfigure}[b]{0.45\textwidth}
+            \includegraphics[width=\textwidth]{002_elemento_tubular_con_corrosion_excesiva.png}
+            \caption{Corrosion severa.}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.45\textwidth}
+            \includegraphics[width=\textwidth]{003_elemento_tubular_con_abolladura_excesiva.png}
+            \caption{Abolladura por impacto.}
+        \end{subfigure}
+    \end{figure}
+\end{frame}
+
+% Seccion 3: Objetivos
+\section{Objetivos}
+\begin{frame}{Objetivos de la Investigacion}
+    \begin{itemize}
+        \item \textbf{Objetivo General:} Desarrollar y validar una metodologia SHM basada en optimizacion inversa con AG para identificar daño en plataformas Jacket.
+        \item \textbf{Objetivos Especificos:}
+        \begin{itemize}
+            \item Formular el \textbf{Indice de Calidad de Deteccion (ICD)} para fusionar indicadores vibratorios.
+            \item Validar la metodologia mediante modelos de elemento finito calibrados.
+            \item Evaluar la sensibilidad ante escenarios de corrosión y abolladura.
+            \item Determinar el comportamiento de elementos "fusibles" vs "principales".
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+% Seccion 4: Marco Teorico
+\section{Marco Teorico}
+\begin{frame}{Marco Teorico: Elementos de Masa}
+    \begin{columns}
+        \column{0.6\textwidth}
+        La matriz de masa global incluye:
+        \begin{itemize}
+            \item \textbf{Masa Estructural ($M_s$):} Acero de la plataforma.
+            \item \textbf{Masa Adherida ($M_a$):} Volumen de agua que se acelera con la estructura ($C_m = 1.2$ a $1.6$).
+            \item \textbf{Masa Atrapada ($M_t$):} Agua contenida en elementos inundados (pilotes/piernas).
+        \end{itemize}
+        \vspace{0.5cm}
+        Impacto del \textbf{Crecimiento Marino}:
+        \begin{itemize}
+            \item Crecimiento de organismos en la superficie.
+            \item Aumenta diametro efectivo y coeficientes hidrodinamicos.
+        \end{itemize}
+        
+        \column{0.4\textwidth}
+        \begin{figure}
+            \includegraphics[width=0.9\linewidth]{001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrapada.png}
+        \end{figure}
+        \begin{figure}
+            \includegraphics[width=0.9\linewidth]{001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino.png}
+        \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Mecanica del Daño Simulado}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \textbf{Corrosion Uniforme:}
+        \begin{itemize}
+            \item Reduccion del espesor de pared ($t$).
+            \item Impacta area ($A$) e inercia ($I$).
+            \item Modulo de elasticidad ($E$) constante.
+        \end{itemize}
+        \vspace{0.5cm}
+        \textbf{Abolladuras:}
+        \begin{itemize}
+            \item Distorsion de la seccion transversal (aplanamiento).
+            \item Reduccion drastica del momento de inercia local ($I_{red}$).
+            \item Suavizado numerico con interpolacion polinomica.
+        \end{itemize}
+        
+        \column{0.5\textwidth}
+        \begin{figure}
+            \includegraphics[width=0.8\linewidth]{004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_por_corrosion.png}
+            \caption{Reduccion de espesor por corrosion.}
+        \end{figure}
+        \begin{figure}
+            \includegraphics[width=0.5\linewidth]{004_seccion_transversal_de_elemento_tubular_parametros_abolladura.png}
+            \caption{Seccion abollada.}
+        \end{figure}
+    \end{columns}
+\end{frame}
+
+% Seccion 5: Hipotesis
+\section{Hipotesis}
+\begin{frame}{Hipotesis de Trabajo}
+    \begin{quote}
+        "Los elementos secundarios (diagonales o \textit{braces}) actuan como fusibles estructurales, manifestando cambios modales detectables a traves del ICD antes de que se comprometa la integridad global de las piernas principales."
+    \end{quote}
+    \vspace{0.5cm}
+    \textbf{Implicacion Operativa:}
+    \begin{itemize}
+        \item Monitoreo automatico continuo para elementos secundarios.
+        \item Inspeccion visual enfocada en nodos criticos y componentes principales.
+    \end{itemize}
+\end{frame}
+
+% Seccion 6 y 7: Metodologia y Flujo
+\section{Metodologia y Flujo de Trabajo}
+\begin{frame}{Metodologia Propuesta}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.75\linewidth]{005_metogologia_propuesta_para_identificar_daños_en_plataformas_reales.jpg}
+        \caption{Esquema general de la metodologia SHM.}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Optimizacion con Algoritmos Geneticos}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \begin{itemize}
+            \item \textbf{Problema Inverso:} Ajuste de modelo para coincidir con respuesta medida.
+            \item \textbf{Busqueda Global:} AG robustos ante minimos locales.
+            \item \textbf{Funcion Objetivo:} Minimizacion del error entre modelo y realidad (o simulacion dañada).
+        \end{itemize}
+        
+        \column{0.5\textwidth}
+        \begin{figure}
+            \includegraphics[width=\linewidth]{006_metodología_del_AG_para_localizar_daños_a_nivel_computacional.jpg}
+            \caption{Flujo del Algoritmo Genetico.}
+        \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Funcionamiento del AG y Metrica}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.65\linewidth]{015_diagrama_como_funciona_el_AG_para_la_sumas_funcion_P_y_como_se_relaciona_con_operadores_geneticos_del_AG.jpg}
+        \caption{Operadores geneticos y evaluacion de la funcion objetivo (ICD).}
+    \end{figure}
+\end{frame}
+
+\section{Caso de Estudio}
+\begin{frame}{Modelo de Plataforma Jacket}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \textbf{Caracteristicas:}
+        \begin{itemize}
+            \item Estructura tipo Jacket de 4 patas.
+            \item Sistema MDOF discretizado.
+            \item Inclusion de masa hidrodinamica e interaccion suelo-estructura.
+        \end{itemize}
+        
+        \column{0.5\textwidth}
+        \begin{figure}
+            \includegraphics[width=0.6\linewidth]{007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png}
+            \caption{Vista 3D del modelo FEM.}
+        \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Detalle del Modelo}
+    \begin{figure}
+        \centering
+        \begin{subfigure}[b]{0.45\textwidth}
+            \includegraphics[width=\textwidth]{007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.png}
+            \caption{Vista Frontal.}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.45\textwidth}
+            \includegraphics[width=\textwidth]{007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio_pero_con_colores_para_saber_que_secciones_transversales_estan_ubicados_con_una_tabla.png}
+            \caption{Identificacion de Secciones.}
+        \end{subfigure}
+    \end{figure}
+\end{frame}
+
+% Seccion 8: Resultados
+\section{Resultados}
+
+\begin{frame}{Resultados: Escenario de Abolladura}
+    Introduccion al analisis de sensibilidad del ICD ante abolladuras en diferentes elementos.
+\end{frame}
+
+\begin{frame}{Abolladura: Vigas vs Braces}
+    \begin{figure}
+        \centering
+        \begin{subfigure}[b]{0.48\textwidth}
+            \includegraphics[width=\textwidth]{figs/resultados/abolladura/001_abolladura_vigas_ICD_vs_porcentaje_de_daño.png}
+            \caption{Vigas (Beams)}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.48\textwidth}
+            \includegraphics[width=\textwidth]{figs/resultados/abolladura/002_abolladura_brace_ICD_vs_porcentaje_de_daño.png}
+            \caption{Diagonales (Braces)}
+        \end{subfigure}
+        \caption{Sensibilidad del ICD en elementos horizontales vs diagonales.}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Abolladura: Comparativa Global}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\linewidth]{figs/resultados/abolladura/005_abolladura_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png}
+        \caption{Comparativa global de ICD por zonas (Abolladura).}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Resultados: Escenario de Corrosion}
+    Evaluacion de la metodologia ante perdida de espesor generalizada.
+\end{frame}
+
+\begin{frame}{Corrosion: Elementos Inclinados y Resumen}
+    \begin{figure}
+        \centering
+        \begin{subfigure}[b]{0.48\textwidth}
+            \includegraphics[width=\textwidth]{figs/resultados/corrosion/003_corrosion_inclined_ICD_vs_porcenaje_de_daño.png}
+            \caption{Elementos Inclinados}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.48\textwidth}
+            \includegraphics[width=\textwidth]{figs/resultados/corrosion/004_corrosion_tipo_de_elemeneto_beam_brace_inclined_led_ICD_vs_porcentaje_de_daño.png}
+            \caption{Comparativa por Tipo}
+        \end{subfigure}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Corrosion: Comparativa Global}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\linewidth]{figs/resultados/corrosion/005_corrosion_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png}
+        \caption{Comparativa global de ICD por zonas (Corrosion).}
+    \end{figure}
+\end{frame}
+
+% Seccion 9: Discusion
+\section{Discusion}
+\begin{frame}{Discusion de Resultados}
+    \begin{itemize}
+        \item \textbf{Comportamiento Diferenciado:}
+        \begin{itemize}
+            \item Elementos Secundarios (Diagonales): Detectables con ICD a partir del \textbf{30\% de daño}.
+            \item Elementos Principales (Piernas): Requieren severidad \textbf{$>$ 50\%} para identificacion fiable.
+        \end{itemize}
+        \item \textbf{Fusibles Estructurales:} Las diagonales advierten del deterioro antes de fallos criticos globales.
+        \item \textbf{Eficacia del ICD:} Penaliza falsos positivos, mejorando la confianza en la deteccion respecto a metodos tradicionales.
+    \end{itemize}
+\end{frame}
+
+% Seccion 10: Conclusiones
+\section{Conclusiones}
+\begin{frame}{Conclusiones Generales}
+    \begin{enumerate}
+        \item La metodologia basada en AG y el indice ICD permite identificar daño estructural en entornos con incertidumbre.
+        \item La modelacion fisica (masa adherida, crecimiento marino) es crucial para representar la dinamica real.
+        \item Se valida la hipotesis de monitoreo hibrido:
+        \begin{itemize}
+            \item \textbf{SHM Automatico:} Para vigilancia continua de elementos secundarios.
+            \item \textbf{Inspeccion Focalizada:} Para nodos y piernas principales, optimizando recursos.
+        \end{itemize}
+    \end{enumerate}
+\end{frame}
+
+% Seccion 11: Perspectivas
+\section{Perspectivas}
+\begin{frame}{Perspectivas Futuras}
+    \begin{itemize}
+        \item Implementacion en tiempo real con datos de sensores in-situ.
+        \item Validacion experimental en tanque de olas.
+        \item Extension a estructuras eolicas offshore.
+        \item Integracion de algoritmos de Machine Learning hibridos para acelerar la convergencia del AG.
+    \end{itemize}
+\end{frame}
+
+% Seccion 12: Bibliografia
+\section{Bibliografia}
+\begin{frame}{Bibliografia}
+    \begin{thebibliography}{9}
+        \footnotesize
+        \bibitem{mubarak2020} Mubarak et al. (2020). Condition Monitoring of Offshore Platforms.
+        \bibitem{goldberg1989} Goldberg, D.E. (1989). Genetic Algorithms in Search, Optimization and Machine Learning.
+        \bibitem{api2014} API RP 2A-WSD (2014). Recommended Practice for Planning, Designing and Constructing Fixed Offshore Platforms.
+    \end{thebibliography}
+\end{frame}
+
+\begin{frame}
+    \centering
+    \Huge \textbf{Gracias por su atencion}
+\end{frame}
+
+\end{document}
+
+% Comando para compilar:
+% pdflatex presentacion.tex && pdflatex presentacion.tex
