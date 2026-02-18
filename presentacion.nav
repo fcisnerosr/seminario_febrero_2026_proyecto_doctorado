@@ -89,8 +89,12 @@
 \headcommand {\sectionentry {11}{Bibliografia}{30}{Bibliografia}{0}}
 \headcommand {\slideentry {11}{0}{1}{30/30}{}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\beamer@partpages {1}{30}}
-\headcommand {\beamer@subsectionpages {30}{30}}
-\headcommand {\beamer@sectionpages {30}{30}}
-\headcommand {\beamer@documentpages {30}}
-\headcommand {\gdef \inserttotalframenumber {29}}
+\headcommand {\slideentry {11}{0}{1}{30/31}{}{0}}
+\headcommand {\beamer@framepages {30}{31}}
+\headcommand {\slideentry {11}{0}{1}{30/32}{}{0}}
+\headcommand {\beamer@framepages {30}{32}}
+\headcommand {\beamer@partpages {1}{32}}
+\headcommand {\beamer@subsectionpages {30}{32}}
+\headcommand {\beamer@sectionpages {30}{32}}
+\headcommand {\beamer@documentpages {32}}
+\headcommand {\gdef \inserttotalframenumber {31}}

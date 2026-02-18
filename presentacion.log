@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.18)  17 FEB 2026 18:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.18)  17 FEB 2026 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1634,6 +1634,34 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 [30
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
+Overfull \hbox (9.58623pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][] [][][][] [][] [][][] [][][] [][][][][][][] [][] [][] [
+][] [][]  
+ []
+
+
+Overfull \hbox (307.5251pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[31
+
+
+]
+Overfull \hbox (9.58623pt too wide) has occurred while \output is active
+  [] [][][][][][][] [][] [][][][] [][] [][][] [][][] [][][][][][][] [][] [][] [
+][] [][]  
+ []
+
+
+Overfull \hbox (307.5251pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[32
+
+
+]
 \tf@nav=\write6
 \openout6 = `presentacion.nav'.
 
@@ -1643,23 +1671,25 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `presentacion.snm'.
 
-
-(./presentacion.aux
+ (./presentacion.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `presentacion.out' has not changed.
 (rerunfilecheck)             Checksum: ACBF5F30EBACE02A0F57996E7C40AD8D;1218.
  ) 
 Here is how much of TeX's memory you used:
- 24994 strings out of 478287
- 497052 string characters out of 5849289
- 768304 words of memory out of 5000000
- 42595 multiletter control sequences out of 15000+600000
- 481347 words of font info for 71 fonts, out of 8000000 for 9000
+ 25045 strings out of 478287
+ 498111 string characters out of 5849289
+ 773444 words of memory out of 5000000
+ 42629 multiletter control sequences out of 15000+600000
+ 483518 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,392b,869s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
@@ -1669,11 +1699,13 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmssi8.pfb>
-Output written on presentacion.pdf (30 pages, 6807821 bytes).
+pe1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmtt9.pfb>
+Output written on presentacion.pdf (32 pages, 6845673 bytes).
 PDF statistics:
- 2082 PDF objects out of 2487 (max. 8388607)
- 1922 compressed objects within 20 object streams
- 75 named destinations out of 1000 (max. 500000)
+ 2233 PDF objects out of 2487 (max. 8388607)
+ 2066 compressed objects within 21 object streams
+ 86 named destinations out of 1000 (max. 500000)
  305 words of extra memory for PDF output out of 10000 (max. 10000000)
 
