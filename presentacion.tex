@@ -2,7 +2,7 @@
 
 % Paquetes
 \usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
+\usepackage[spanish,es-nodecimaldot]{babel}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{booktabs}
@@ -16,7 +16,7 @@
 \title[SHM en Plataformas Jacket]{Desarrollo de una metodologia para la deteccion de daño en plataformas marinas fijas por medio de analisis de vibraciones}
 \subtitle{Evaluacion de Desempeño - Trabajo de Investigacion de Doctorado}
 \author{M. I. Francisco Cisneros}
-\institute{
+\institute[]{
     Coordinacion Academica del Posgrado \\
     Direccion de Desarrollo de Talento \\
     \vspace{0.2cm}
@@ -108,6 +108,7 @@
     \begin{figure}
         \centering
         \includegraphics[width=0.75\linewidth]{figs/000_03_danos_en_plataformas_reales.png}
+        \caption{Ejemplos de falla global y colapso de plataformas.}
     \end{figure}
 \end{frame}
 
@@ -115,20 +116,23 @@
     \begin{figure}
         \centering
         \includegraphics[width=0.75\linewidth]{figs/000_04_dano_real_corrosion_2.png}
+        \caption{Corrosion severa y perdida de material en zonas de marea.}
     \end{figure}
 \end{frame}
 
 \begin{frame}{Perdida de Espesor y Perforacion}
     \begin{figure}
         \centering
-        \includegraphics[width=0.75\linewidth]{figs/000_04_dano_real_corrosion.png}
+        \includegraphics[width=0.6\linewidth]{figs/000_04_dano_real_corrosion.png}
+        \caption{Fractura de elemento diagonal por perdida critica de espesor.}
     \end{figure}
 \end{frame}
 
 \begin{frame}{Proceso de Inspeccion Submarina}
     \begin{figure}
         \centering
-        \includegraphics[width=0.75\linewidth]{figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png}
+        \includegraphics[width=0.6\linewidth]{figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png}
+        \caption{Inspeccion visual detallada realizada por buzos.}
     \end{figure}
 \end{frame}
 
@@ -136,6 +140,7 @@
     \begin{figure}
         \centering
         \includegraphics[width=0.75\linewidth]{figs/000_06_actualmente_se_realizan_inspecciones_con_buzos2.png}
+        \caption{Desafios logisticos y operativos de la inspeccion in-situ.}
     \end{figure}
 \end{frame}
 
@@ -264,15 +269,25 @@
 % Seccion 5: Hipotesis
 \section{Hipotesis}
 \begin{frame}{Hipotesis de Trabajo}
-    \begin{quote}
-        "Los elementos secundarios (diagonales o \textit{braces}) actuan como fusibles estructurales, manifestando cambios modales detectables a traves del ICD antes de que se comprometa la integridad global de las piernas principales."
-    \end{quote}
-    \vspace{0.5cm}
-    \textbf{Implicacion Operativa:}
-    \begin{itemize}
-        \item Monitoreo automatico continuo para elementos secundarios.
-        \item Inspeccion visual enfocada en nodos criticos y componentes principales.
-    \end{itemize}
+    \begin{columns}
+        \column{0.6\textwidth}
+            \begin{quote}
+                "Los elementos secundarios (diagonales o \textit{braces}) actuan como fusibles estructurales, manifestando cambios modales detectables a traves del ICD antes de que se comprometa la integridad global de las piernas principales."
+            \end{quote}
+            \vspace{0.5cm}
+            \textbf{Implicacion Operativa:}
+            \begin{itemize}
+                \item Monitoreo automatico continuo para elementos secundarios.
+                \item Inspeccion visual enfocada en nodos criticos y componentes principales.
+            \end{itemize}
+        
+        \column{0.4\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth, height=0.7\textheight, keepaspectratio]{007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png}
+                \caption{Modelo de referencia.}
+            \end{figure}
+    \end{columns}
 \end{frame}
 
 % Seccion 6 y 7: Metodologia y Flujo
@@ -290,6 +305,30 @@
         \centering
         \includegraphics[width=0.8\linewidth]{figs/000_05_explicacion_de_un_AG_con_jirafas.png}
         \caption{Analogia evolutiva del AG.}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Evolucion del AG}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.45\linewidth]{figs/000_07_AG_1.png}
+        \caption{Evolucion de AG para la busqueda de un minimo global en una superficie multivariable}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Evolucion del AG}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.45\linewidth]{figs/000_07_AG_2.png}
+        \caption{Evolucion de AG para la busqueda de un minimo global en una superficie multivariable}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Evolucion del AG}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.45\linewidth]{figs/000_07_AG_3.png}
+        \caption{Evolucion de AG para la busqueda de un minimo global en una superficie multivariable}
     \end{figure}
 \end{frame}
 
@@ -399,7 +438,7 @@
     \textit{(Recordatorio de la métrica utilizada)}
     
     % Se cambió el título del bloque para resaltar la novedad
-    \begin{block}{Contribución Metodológica: \textbf{Indice de Calidad de Detección}}
+    % \begin{block}{Contribución Metodológica: \textbf{Indice de Calidad de Detección}}
         Se propone una \textbf{métrica inédita} que integra tres factores normalizados para evaluar la calidad de la solución:
         \begin{equation}
             \text{ICD} = D \times C_{\text{norm}}(\delta) \times P_{\text{FP}}(N_{\text{FP}})

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.2)  18 FEB 2026 13:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.2)  18 FEB 2026 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -702,7 +702,6 @@ Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks48
 \es@quotdepth=\count338
 Package babel Info: Making " an active character on input line 570.
-Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
 ))
@@ -933,20 +932,12 @@ LaTeX Info: Redefining \% on input line 30.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./presentacion.nav)
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 30--30
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 68--68
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-<./figs/000_logo.png, id=145, 532.23843pt x 200.24812pt>
+<./figs/000_logo.png, id=151, 532.23843pt x 200.24812pt>
 File: ./figs/000_logo.png Graphic file (type png)
 <use ./figs/000_logo.png>
 Package pdftex.def Info: ./figs/000_logo.png  used on input line 68.
 (pdftex.def)             Requested size: 98.30826pt x 36.98866pt.
+
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 (Font)              using `OT1/cmss/bx/n' instead on input line 68.
@@ -958,11 +949,7 @@ Overfull \vbox (19.2948pt too high) detected at line 68
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/000_logo.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 76--76
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-<figs/000_01_plataforma_marina_subestructura_superestructura.png, id=236, 599.9
+<figs/000_01_plataforma_marina_subestructura_superestructura.png, id=245, 599.9
 9156pt x 286.82156pt>
 File: figs/000_01_plataforma_marina_subestructura_superestructura.png Graphic f
 ile (type png)
@@ -971,18 +958,10 @@ Package pdftex.def Info: figs/000_01_plataforma_marina_subestructura_superestru
 ctura.png  used on input line 76.
 (pdftex.def)             Requested size: 303.3395pt x 145.01222pt.
 
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
 [2
 
  <./figs/000_01_plataforma_marina_subestructura_superestructura.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 84--84
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-<figs/000_02_tipos_de_plataformas.png, id=380, 527.72156pt x 312.41719pt>
+<figs/000_02_tipos_de_plataformas.png, id=398, 527.72156pt x 312.41719pt>
 File: figs/000_02_tipos_de_plataformas.png Graphic file (type png)
 <use figs/000_02_tipos_de_plataformas.png>
 Package pdftex.def Info: figs/000_02_tipos_de_plataformas.png  used on input li
@@ -992,20 +971,12 @@ ne 84.
 Overfull \vbox (43.35597pt too high) detected at line 84
  []
 
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
 [3
 
  <./figs/000_02_tipos_de_plataformas.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 105--105
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
 LaTeX Font Info:    Trying to load font information for U+msa on input line 105
 .
+
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -1015,7 +986,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 105
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./figs/001_plataformas_con_abolladuras_al_borde_copaso.png, id=495, 274.02374p
+<./figs/001_plataformas_con_abolladuras_al_borde_copaso.png, id=519, 274.02374p
 t x 160.34906pt>
 File: ./figs/001_plataformas_con_abolladuras_al_borde_copaso.png Graphic file (
 type png)
@@ -1023,319 +994,226 @@ type png)
 Package pdftex.def Info: ./figs/001_plataformas_con_abolladuras_al_borde_copaso
 .png  used on input line 105.
 (pdftex.def)             Requested size: 173.33826pt x 101.43393pt.
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[4
+ [4
 
  <./figs/001_plataformas_con_abolladuras_al_borde_copaso.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 112--112
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-<figs/000_03_danos_en_plataformas_reales.png, id=611, 911.65594pt x 234.8775pt>
+<figs/000_03_danos_en_plataformas_reales.png, id=641, 911.65594pt x 234.8775pt>
 
 File: figs/000_03_danos_en_plataformas_reales.png Graphic file (type png)
 <use figs/000_03_danos_en_plataformas_reales.png>
 Package pdftex.def Info: figs/000_03_danos_en_plataformas_reales.png  used on i
-nput line 112.
+nput line 113.
 (pdftex.def)             Requested size: 325.00801pt x 83.7351pt.
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[5
+ [5
 
  <./figs/000_03_danos_en_plataformas_reales.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 119--119
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-<figs/000_04_dano_real_corrosion_2.png, id=725, 837.1275pt x 276.28218pt>
+<figs/000_04_dano_real_corrosion_2.png, id=761, 837.1275pt x 276.28218pt>
 File: figs/000_04_dano_real_corrosion_2.png Graphic file (type png)
 <use figs/000_04_dano_real_corrosion_2.png>
 Package pdftex.def Info: figs/000_04_dano_real_corrosion_2.png  used on input l
-ine 119.
+ine 121.
 (pdftex.def)             Requested size: 325.00801pt x 107.26059pt.
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[6
+ [6
 
  <./figs/000_04_dano_real_corrosion_2.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 126--126
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-<figs/000_04_dano_real_corrosion.png, id=838, 315.42844pt x 210.03468pt>
+<figs/000_04_dano_real_corrosion.png, id=881, 315.42844pt x 210.03468pt>
 File: figs/000_04_dano_real_corrosion.png Graphic file (type png)
 <use figs/000_04_dano_real_corrosion.png>
 Package pdftex.def Info: figs/000_04_dano_real_corrosion.png  used on input lin
-e 126.
-(pdftex.def)             Requested size: 325.00801pt x 216.42787pt.
+e 129.
+(pdftex.def)             Requested size: 260.00905pt x 173.14293pt.
 
-Overfull \vbox (28.55083pt too high) detected at line 126
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+Overfull \vbox (11.26588pt too high) detected at line 129
  []
 
 [7
 
  <./figs/000_04_dano_real_corrosion.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 133--133
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-<figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png, id=953, 527.72
-156pt x 356.0803pt>
+<figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png, id=1001, 527.7
+2156pt x 356.0803pt>
 File: figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png Graphic fi
 le (type png)
 <use figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png>
 Package pdftex.def Info: figs/000_06_actualmente_se_realizan_inspecciones_con_b
-uzos.png  used on input line 133.
-(pdftex.def)             Requested size: 325.00801pt x 219.29507pt.
+uzos.png  used on input line 137.
+(pdftex.def)             Requested size: 260.00905pt x 175.43713pt.
 
-Overfull \vbox (31.41803pt too high) detected at line 133
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+Overfull \vbox (13.56009pt too high) detected at line 137
  []
 
 [8
 
  <./figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 140--140
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-<figs/000_06_actualmente_se_realizan_inspecciones_con_buzos2.png, id=1067, 735.
+<figs/000_06_actualmente_se_realizan_inspecciones_con_buzos2.png, id=1121, 735.
 49782pt x 398.23781pt>
 File: figs/000_06_actualmente_se_realizan_inspecciones_con_buzos2.png Graphic f
 ile (type png)
 <use figs/000_06_actualmente_se_realizan_inspecciones_con_buzos2.png>
 Package pdftex.def Info: figs/000_06_actualmente_se_realizan_inspecciones_con_b
-uzos2.png  used on input line 140.
+uzos2.png  used on input line 145.
 (pdftex.def)             Requested size: 325.00801pt x 175.97867pt.
 
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+Overfull \vbox (14.10162pt too high) detected at line 145
  []
 
 [9
 
  <./figs/000_06_actualmente_se_realizan_inspecciones_con_buzos2.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 155--155
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
 [10
 
 ]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 183--183
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
 <./figs/001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrapad
-a.png, id=1295, 429.85594pt x 208.52907pt>
+a.png, id=1361, 429.85594pt x 208.52907pt>
 File: ./figs/001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_at
 rapada.png Graphic file (type png)
 <use ./figs/001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atr
 apada.png>
 Package pdftex.def Info: ./figs/001_modelo_plataforma_con_elemento_tubular_masa
-_adherida_y_masa_atrapada.png  used on input line 183.
+_adherida_y_masa_atrapada.png  used on input line 188.
 (pdftex.def)             Requested size: 156.0004pt x 75.67815pt.
 <./figs/001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino.p
-ng, id=1296, 490.83376pt x 249.93375pt>
+ng, id=1362, 490.83376pt x 249.93375pt>
 File: ./figs/001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_mar
 ino.png Graphic file (type png)
 <use ./figs/001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_mari
 no.png>
 Package pdftex.def Info: ./figs/001_modelo_plataforma_con_elemento_tubular_masa
-_de_crecimiento_marino.png  used on input line 183.
+_de_crecimiento_marino.png  used on input line 188.
 (pdftex.def)             Requested size: 156.0004pt x 79.43507pt.
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[11
+ [11
 
  <./figs/001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrapa
 da.png> <./figs/001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_
 marino.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 200--200
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
 <./figs/004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_por_c
-orrosion.png, id=1415, 304.88907pt x 192.72pt>
+orrosion.png, id=1487, 304.88907pt x 192.72pt>
 File: ./figs/004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_
 por_corrosion.png Graphic file (type png)
 <use ./figs/004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_p
 or_corrosion.png>
 Package pdftex.def Info: ./figs/004_caracterizacion_de_como_se_reduce_el_espeso
-r_elemento_tubular_por_corrosion.png  used on input line 200.
+r_elemento_tubular_por_corrosion.png  used on input line 205.
 (pdftex.def)             Requested size: 173.33826pt x 109.56923pt.
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[12
+ [12
 
  <./figs/004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_por_
 corrosion.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 217--217
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
 <./figs/004_seccion_transversal_de_elemento_tubular_parametros_abolladura.png, 
-id=1530, 183.68625pt x 156.585pt>
+id=1608, 183.68625pt x 156.585pt>
 File: ./figs/004_seccion_transversal_de_elemento_tubular_parametros_abolladura.
 png Graphic file (type png)
 <use ./figs/004_seccion_transversal_de_elemento_tubular_parametros_abolladura.p
 ng>
 Package pdftex.def Info: ./figs/004_seccion_transversal_de_elemento_tubular_par
-ametros_abolladura.png  used on input line 217.
+ametros_abolladura.png  used on input line 222.
 (pdftex.def)             Requested size: 151.66974pt x 129.30128pt.
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[13
+ [13
 
  <./figs/004_seccion_transversal_de_elemento_tubular_parametros_abolladura.png>
-]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 262--262
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[14
+] [14
 
 ]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 276--276
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[15
-
-]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 286--286
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-<./figs/005_metogologia_propuesta_para_identificar_daños_en_plataformas_reales
-.jpg, id=1889, 1560.83125pt x 779.91376pt>
-File: ./figs/005_metogologia_propuesta_para_identificar_daños_en_plataformas_r
-eales.jpg Graphic file (type jpg)
-<use ./figs/005_metogologia_propuesta_para_identificar_daños_en_plataformas_re
-ales.jpg>
-Package pdftex.def Info: ./figs/005_metogologia_propuesta_para_identificar_dañ
-os_en_plataformas_reales.jpg  used on input line 286.
-(pdftex.def)             Requested size: 325.00801pt x 162.39436pt.
-
-Overfull \vbox (0.51732pt too high) detected at line 286
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[16
-
- <./figs/005_metogologia_propuesta_para_identificar_daños_en_plataformas_reale
-s.jpg>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 294--294
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-<figs/000_05_explicacion_de_un_AG_con_jirafas.png, id=2002, 864.98157pt x 426.0
-9187pt>
-File: figs/000_05_explicacion_de_un_AG_con_jirafas.png Graphic file (type png)
-<use figs/000_05_explicacion_de_un_AG_con_jirafas.png>
-Package pdftex.def Info: figs/000_05_explicacion_de_un_AG_con_jirafas.png  used
- on input line 294.
-(pdftex.def)             Requested size: 346.67653pt x 170.7718pt.
-
-Overfull \vbox (8.89476pt too high) detected at line 294
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[17
-
- <./figs/000_05_explicacion_de_un_AG_con_jirafas.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 314--314
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
 <./figs/007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png, id
-=2116, 302.63063pt x 650.43pt>
+=1866, 302.63063pt x 650.43pt>
 File: ./figs/007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.pn
 g Graphic file (type png)
 <use ./figs/007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png
 >
 Package pdftex.def Info: ./figs/007_modeo_vista_3d_de_plataforma_tipo_jacket_de
-_caso_de_estudio.png  used on input line 314.
-(pdftex.def)             Requested size: 84.60208pt x 181.82985pt.
+_caso_de_estudio.png  used on input line 291.
+(pdftex.def)             Requested size: 74.02278pt x 159.09373pt.
+ [15
 
-Overfull \vbox (21.9528pt too high) detected at line 314
+ <./figs/007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png>]
+<./figs/005_metogologia_propuesta_para_identificar_daños_en_plataformas_reales
+.jpg, id=1986, 770.88pt x 378.66469pt>
+File: ./figs/005_metogologia_propuesta_para_identificar_daños_en_plataformas_r
+eales.jpg Graphic file (type jpg)
+<use ./figs/005_metogologia_propuesta_para_identificar_daños_en_plataformas_re
+ales.jpg>
+Package pdftex.def Info: ./figs/005_metogologia_propuesta_para_identificar_dañ
+os_en_plataformas_reales.jpg  used on input line 301.
+(pdftex.def)             Requested size: 325.00801pt x 159.64476pt.
+ [16
+
+ <./figs/005_metogologia_propuesta_para_identificar_daños_en_plataformas_reale
+s.jpg>]
+<figs/000_05_explicacion_de_un_AG_con_jirafas.png, id=2106, 864.98157pt x 426.0
+9187pt>
+File: figs/000_05_explicacion_de_un_AG_con_jirafas.png Graphic file (type png)
+<use figs/000_05_explicacion_de_un_AG_con_jirafas.png>
+Package pdftex.def Info: figs/000_05_explicacion_de_un_AG_con_jirafas.png  used
+ on input line 309.
+(pdftex.def)             Requested size: 346.67653pt x 170.7718pt.
+
+Overfull \vbox (8.89476pt too high) detected at line 309
  []
 
+[17
 
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+ <./figs/000_05_explicacion_de_un_AG_con_jirafas.png>]
+<figs/000_07_AG_1.png, id=2226, 767.86874pt x 686.565pt>
+File: figs/000_07_AG_1.png Graphic file (type png)
+<use figs/000_07_AG_1.png>
+Package pdftex.def Info: figs/000_07_AG_1.png  used on input line 317.
+(pdftex.def)             Requested size: 195.00348pt x 174.35414pt.
+
+Overfull \vbox (12.4771pt too high) detected at line 317
  []
 
 [18
 
- <./figs/007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 332--332
- [][]  \OT1/cmss/m/n/6 ([])  
+ <./figs/000_07_AG_1.png>]
+<figs/000_07_AG_2.png, id=2346, 769.37437pt x 702.37407pt>
+File: figs/000_07_AG_2.png Graphic file (type png)
+<use figs/000_07_AG_2.png>
+Package pdftex.def Info: figs/000_07_AG_2.png  used on input line 325.
+(pdftex.def)             Requested size: 195.00348pt x 178.0152pt.
+
+Overfull \vbox (16.13815pt too high) detected at line 325
  []
 
+[19
+
+ <./figs/000_07_AG_2.png>]
+<figs/000_07_AG_3.png, id=2468, 769.37437pt x 701.62125pt>
+File: figs/000_07_AG_3.png Graphic file (type png)
+<use figs/000_07_AG_3.png>
+Package pdftex.def Info: figs/000_07_AG_3.png  used on input line 333.
+(pdftex.def)             Requested size: 195.00348pt x 177.8244pt.
+
+Overfull \vbox (15.94736pt too high) detected at line 333
+ []
+
+[20
+
+ <./figs/000_07_AG_3.png>]
+File: ./figs/007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.pn
+g Graphic file (type png)
+<use ./figs/007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png
+>
+Package pdftex.def Info: ./figs/007_modeo_vista_3d_de_plataforma_tipo_jacket_de
+_caso_de_estudio.png  used on input line 353.
+(pdftex.def)             Requested size: 84.60208pt x 181.82985pt.
+
+Overfull \vbox (21.9528pt too high) detected at line 353
+ []
+
+[21
+
+]
 <./figs/007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.pn
-g, id=2230, 281.55188pt x 674.52pt>
+g, id=2707, 281.55188pt x 674.52pt>
 File: ./figs/007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estud
 io.png Graphic file (type png)
 <use ./figs/007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudi
 o.png>
 Package pdftex.def Info: ./figs/007_modelo_vista_fronta_de_plataforma_tipo_jack
-et_de_caso_de_estudio.png  used on input line 332.
+et_de_caso_de_estudio.png  used on input line 371.
 (pdftex.def)             Requested size: 71.1525pt x 170.46162pt.
 <./figs/007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio_pero_co
 n_colores_para_saber_que_secciones_transversales_estan_ubicados_con_una_tabla.p
-ng, id=2231, 183.084pt x 406.6392pt>
+ng, id=2708, 183.084pt x 406.6392pt>
 File: ./figs/007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio_pe
 ro_con_colores_para_saber_que_secciones_transversales_estan_ubicados_con_una_ta
 bla.png Graphic file (type png)
@@ -1344,291 +1222,895 @@ o_con_colores_para_saber_que_secciones_transversales_estan_ubicados_con_una_tab
 la.png>
 Package pdftex.def Info: ./figs/007_modeo_vista_3d_de_plataforma_tipo_jacket_de
 _caso_de_estudio_pero_con_colores_para_saber_que_secciones_transversales_estan_
-ubicados_con_una_tabla.png  used on input line 332.
+ubicados_con_una_tabla.png  used on input line 371.
 (pdftex.def)             Requested size: 76.74948pt x 170.46465pt.
 
-Overfull \vbox (6.5876pt too high) detected at line 332
+Overfull \vbox (6.5876pt too high) detected at line 371
  []
 
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[19
+[22
 
  <./figs/007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.p
 ng> <./figs/007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio_per
 o_con_colores_para_saber_que_secciones_transversales_estan_ubicados_con_una_tab
 la.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 366--366
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-<./figs/016_modelo_colores.png, id=2346, 183.084pt x 406.6392pt>
+<./figs/016_modelo_colores.png, id=2829, 183.084pt x 406.6392pt>
 File: ./figs/016_modelo_colores.png Graphic file (type png)
 <use ./figs/016_modelo_colores.png>
-Package pdftex.def Info: ./figs/016_modelo_colores.png  used on input line 366.
+Package pdftex.def Info: ./figs/016_modelo_colores.png  used on input line 405.
 
 (pdftex.def)             Requested size: 81.86742pt x 181.83185pt.
 
-Overfull \vbox (33.9548pt too high) detected at line 366
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[20
-
- <./figs/016_modelo_colores.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 388--388
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[21
-
-]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 396--396
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-<./figs/019_niveles_mudline.png, id=2574, 397.485pt x 599.99156pt>
-File: ./figs/019_niveles_mudline.png Graphic file (type png)
-<use ./figs/019_niveles_mudline.png>
-Package pdftex.def Info: ./figs/019_niveles_mudline.png  used on input line 396
-.
-(pdftex.def)             Requested size: 105.39973pt x 159.0977pt.
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[22
-
- <./figs/019_niveles_mudline.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 443--443
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+Overfull \vbox (33.9548pt too high) detected at line 405
  []
 
 [23
 
-]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 451--451
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[24
+ <./figs/016_modelo_colores.png>] [24
 
 ]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 467--467
- [][]  \OT1/cmss/m/n/6 ([])  
+<./figs/019_niveles_mudline.png, id=3069, 397.485pt x 599.99156pt>
+File: ./figs/019_niveles_mudline.png Graphic file (type png)
+<use ./figs/019_niveles_mudline.png>
+Package pdftex.def Info: ./figs/019_niveles_mudline.png  used on input line 435
+.
+(pdftex.def)             Requested size: 105.39973pt x 159.0977pt.
+ [25
+
+ <./figs/019_niveles_mudline.png>]
+! Undefined control sequence.
+\endminipage ...\expandafter \@iiiparbox \@mpargs 
+                                                  {\unvbox \@tempboxa }
+l.482 \end{frame}
+                 
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.482 \end{frame}
+                 
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.482 \end{frame}
+                 
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.482 \end{frame}
+                 
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.482 \end{frame}
+                 
+? 
+
+! LaTeX Error: Environment \relax  undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.482 \end{frame}
+                 
+? 
+
+Overfull \hbox (32.97173pt too wide) in paragraph at lines 482--482
+[]\OT1/cmss/m/n/10.95 column 
  []
 
-<figs/resultados/abolladura/001_abolladura_vigas_ICD_vs_porcentaje_de_daño.png
-, id=2922, 612.1269pt x 396.0396pt>
-File: figs/resultados/abolladura/001_abolladura_vigas_ICD_vs_porcentaje_de_dañ
-o.png Graphic file (type png)
-<use figs/resultados/abolladura/001_abolladura_vigas_ICD_vs_porcentaje_de_daño
-.png>
-Package pdftex.def Info: figs/resultados/abolladura/001_abolladura_vigas_ICD_vs
-_porcentaje_de_daño.png  used on input line 467.
-(pdftex.def)             Requested size: 208.00327pt x 134.57312pt.
-<figs/resultados/abolladura/002_abolladura_brace_ICD_vs_porcentaje_de_daño.png
-, id=2923, 612.1269pt x 396.0396pt>
-File: figs/resultados/abolladura/002_abolladura_brace_ICD_vs_porcentaje_de_dañ
-o.png Graphic file (type png)
-<use figs/resultados/abolladura/002_abolladura_brace_ICD_vs_porcentaje_de_daño
-.png>
-Package pdftex.def Info: figs/resultados/abolladura/002_abolladura_brace_ICD_vs
-_porcentaje_de_daño.png  used on input line 467.
-(pdftex.def)             Requested size: 208.00327pt x 134.57312pt.
+Runaway argument?
+{\@checkend {minipage}\expandafter \endgroup \if@endpe \@doendpe \fi \ETC.
+! Paragraph ended before \setlength was complete.
+<to be read again> 
+                   \par 
+l.482 \end{frame}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.482 \end{frame}
+                 
+? 
 
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+Overfull \hbox (16.60754pt too wide) detected at line 482
+ []\OT1/cmss/m/n/10.95 b[]
  []
 
-[25
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.482 \end{frame}
+                 
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.482 \end{frame}
+                 
+? 
+! You can't use `\unskip' in vertical mode.
+\endminipage ->\par \unskip 
+                            \ifvoid \@mpfootins \else \vskip \skip \@mpfooti...
+l.482 \end{frame}
+                 
+? 
+! Extra }, or forgotten \endgroup.
+\endminipage ...pagefalse \color@endgroup \egroup 
+                                                  \expandafter \@iiiparbox \...
+l.482 \end{frame}
+                 
+? 
+! Undefined control sequence.
+\endminipage ...\expandafter \@iiiparbox \@mpargs 
+                                                  {\unvbox \@tempboxa }
+l.482 \end{frame}
+                 
+? 
+! Missing endcsname inserted.
+<to be read again> 
+                   scan_stop: 
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
 
- <./figs/resultados/abolladura/001_abolladura_vigas_ICD_vs_porcentaje_de_daño.
-png> <./figs/resultados/abolladura/002_abolladura_brace_ICD_vs_porcentaje_de_da
-ño.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 475--475
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+? 
+! Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: scan_stop: invalid in file name. Lost: mode_i...
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
 
-<figs/resultados/abolladura/005_abolladura_comparativa_global_de_ICD_vs_daño_p
-or_zona_mudline_medio_y_splash_zone.png, id=3040, 1003.8303pt x 570.933pt>
-File: figs/resultados/abolladura/005_abolladura_comparativa_global_de_ICD_vs_da
-ño_por_zona_mudline_medio_y_splash_zone.png Graphic file (type png)
-<use figs/resultados/abolladura/005_abolladura_comparativa_global_de_ICD_vs_da�
-�o_por_zona_mudline_medio_y_splash_zone.png>
-Package pdftex.def Info: figs/resultados/abolladura/005_abolladura_comparativa_
-global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png  used on input 
-line 475.
-(pdftex.def)             Requested size: 346.67653pt x 197.17245pt.
+? 
+! Missing endcsname inserted.
+<to be read again> 
+                   scan_stop: 
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
 
-Overfull \vbox (35.29541pt too high) detected at line 475
- []
+? 
+! Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: scan_stop: invalid in file name. Lost: mode_i...
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
 
+? 
+! Missing endcsname inserted.
+<to be read again> 
+                   scan_stop: 
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
 
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+? 
+! Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: scan_stop: invalid in file name. Lost: mode_i...
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
 
-[26
+? 
 
- <./figs/resultados/abolladura/005_abolladura_comparativa_global_de_ICD_vs_dañ
-o_por_zona_mudline_medio_y_splash_zone.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 479--479
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+! LaTeX Error: File `\@@par ' not found.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
 
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+? 
+Runaway argument?
+{\@checkend {minipage}\expandafter \endgroup \if@endpe \@doendpe \fi \ETC.
+! Paragraph ended before \setlength was complete.
+<to be read again> 
+                   \par 
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
 
-[27
+? 
+! Undefined control sequence.
+\beamerx@\beamer@columnenv ...3->\beamer@colclose 
+                                                  \def \beamer@colclose {}\b...
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Undefined control sequence.
+\@tempa ->\beamer@colmode 
+                          
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+
+! Undefined control sequence.
+\@tempa ->\beamer@colmode 
+                          
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Package keyval Error:  undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Undefined control sequence.
+\beamerx@\beamer@columnenv ...\beamer@colheadskip 
+                                                  \ignorespaces 
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Undefined control sequence.
+<argument> \beamer@colalign 
+                            
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Undefined control sequence.
+<argument> \beamer@colalign 
+                            
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Undefined control sequence.
+\beamerx@\beamer@columnenv ...3->\beamer@colclose 
+                                                  \def \beamer@colclose {}\b...
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Undefined control sequence.
+\@tempa ->\beamer@colmode 
+                          
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+
+! Undefined control sequence.
+\@tempa ->\beamer@colmode 
+                          
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Package keyval Error:  undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Undefined control sequence.
+\beamerx@\beamer@columnenv ...\beamer@colheadskip 
+                                                  \ignorespaces 
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Undefined control sequence.
+<argument> \beamer@colalign 
+                            
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Undefined control sequence.
+<argument> \beamer@colalign 
+                            
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Undefined control sequence.
+\endcolumns ->\beamer@colclose 
+                               \def \beamer@colclose {}\beamer@colexitcode \...
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Undefined control sequence.
+\endcolumns ...mer@colclose {}\beamer@colexitcode 
+                                                  \end {actionenv}
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Undefined control sequence.
+\endaltenv ->\beamer@eoenv 
+                           
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+
+! LaTeX Error: \begin{actionenv} on input line 482 ended by \end{altenv}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+
+! LaTeX Error: \begin{actionenv} on input line 482 ended by \end{uncoverenv}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+
+! LaTeX Error: \begin{columns} on input line 482 ended by \end{actionenv}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+
+! LaTeX Error: \begin{beamer@frameslide} on input line 482 ended by \end{column
+s}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+
+! LaTeX Error: \begin{beamer@frameslide} on input line 482 ended by \end{beamer
+@framepauses}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Extra }, or forgotten \endgroup.
+\endbeamer@frameslide ...amer@framepauses}\egroup 
+                                                  \ifx \beamer@frametitle \@...
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+
+Underfull \vbox (badness 3861) has occurred while \output is active []
+
+ [26
 
 ]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 494--494
- [][]  \OT1/cmss/m/n/6 ([])  
+[27] [28
+
+]
+! Argument of \frame has an extra }.
+<inserted text> 
+                \par 
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+Runaway argument?
+{Abolladura: Vigas vs Braces} \begin {figure} \centering \begin {subf\ETC.
+! Paragraph ended before \frame was complete.
+<to be read again> 
+                   \par 
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.496             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.496 ...       \includegraphics[width=\textwidth]
+                                                  {figs/resultados/abolladur...
+
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.496 ...       \includegraphics[width=\textwidth]
+                                                  {figs/resultados/abolladur...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.496 ...extwidth]{figs/resultados/abolladura/001_
+                                                  abolladura_vigas_ICD_vs_po...
+
+? 
+
+LaTeX Warning: Command \~ invalid in math mode on input line 496.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.496 ...bolladura_vigas_ICD_vs_porcentaje_de_dañ
+                                                  o.png}
+? 
+! Extra }, or forgotten $.
+l.496 ...ura_vigas_ICD_vs_porcentaje_de_daño.png}
+                                                  
+? 
+
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.497             \caption
+                          {Vigas (Beams)}
+? 
+! Undefined control sequence.
+\subcaption@endminipage ...ption@endminipage@hook 
+                                                  \endminipage 
+l.498         \end{subfigure}
+                             
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.498         \end{subfigure}
+                             
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.498         \end{subfigure}
+                             
+? 
+! Too many }'s.
+\endminipage ...pagefalse \color@endgroup \egroup 
+                                                  \expandafter \@iiiparbox \...
+l.498         \end{subfigure}
+                             
+? 
+! Undefined control sequence.
+\endminipage ...\expandafter \@iiiparbox \@mpargs 
+                                                  {\unvbox \@tempboxa }
+l.498         \end{subfigure}
+                             
+? 
+! Missing endcsname inserted.
+<to be read again> 
+                   scan_stop: 
+l.501             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: scan_stop: invalid in file name. Lost: mode_i...
+l.501             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Missing endcsname inserted.
+<to be read again> 
+                   scan_stop: 
+l.501             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: scan_stop: invalid in file name. Lost: mode_i...
+l.501             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Missing endcsname inserted.
+<to be read again> 
+                   scan_stop: 
+l.501             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: scan_stop: invalid in file name. Lost: mode_i...
+l.501             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+
+! LaTeX Error: File `\@@par ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.501             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \def 
+l.501             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \def 
+l.501             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+
+! LaTeX Error: \begin{document} ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.501             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+
+! Package subcaption Error: subfigure outside float.
+
+See the subcaption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.501             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.501             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.501             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+
+! Package caption Error: \setcaptionsubtype outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.501             \includegraphics
+                                  [width=\textwidth]{figs/resultados/abollad...
+
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.501 ...       \includegraphics[width=\textwidth]
+                                                  {figs/resultados/abolladur...
+
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.501 ...       \includegraphics[width=\textwidth]
+                                                  {figs/resultados/abolladur...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.501 ...extwidth]{figs/resultados/abolladura/002_
+                                                  abolladura_brace_ICD_vs_po...
+
+? 
+
+LaTeX Warning: Command \~ invalid in math mode on input line 501.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.501 ...bolladura_brace_ICD_vs_porcentaje_de_dañ
+                                                  o.png}
+? 
+! Extra }, or forgotten $.
+l.501 ...ura_brace_ICD_vs_porcentaje_de_daño.png}
+                                                  
+? 
+
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.502             \caption
+                          {Diagonales (Braces)}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.503         \end{subfigure}
+                             
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.503         \end{subfigure}
+                             
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.503         \end{subfigure}
+                             
+? 
+! Too many }'s.
+\endminipage ...pagefalse \color@endgroup \egroup 
+                                                  \expandafter \@iiiparbox \...
+l.503         \end{subfigure}
+                             
+? 
+! Undefined control sequence.
+\endminipage ...\expandafter \@iiiparbox \@mpargs 
+                                                  {\unvbox \@tempboxa }
+l.503         \end{subfigure}
+                             
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   f
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   f
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+
+LaTeX Warning: Command \~ invalid in math mode on input line 512.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+! Double subscript.
+<argument> ...D_vs_daño_por_zona_mudline_medio_y_
+                                                  splash_zone.png
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+Runaway argument?
+{\@checkend {subfigure}\expandafter \endgroup \if@endpe \@doendpe \fi \ETC.
+! Paragraph ended before \setlength was complete.
+<to be read again> 
+                   \par 
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+
+Overfull \hbox (70.67705pt too wide) in paragraph at lines 501--512
+\OT1/cmss/m/n/10.95 figs/resultados/abolladura/005$[]\OT1/cmss/m/it/10.95 bolla
+dura[]omparativa[]lobal[]e[]CD[]s[]a[]o[]or[]ona[]udline[]edio[][]plash[]one\OM
+L/cmm/m/it/10.95 :\OT1/cmss/m/it/10.95 png$  
  []
 
+! Argument of \frame has an extra }.
+<inserted text> 
+                \par 
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+Runaway argument?
+{Abolladura: Comparativa Global} \begin {figure} \centering \includegraphics 
+! Paragraph ended before \frame was complete.
+<to be read again> 
+                   \par 
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \linewidth 
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \linewidth 
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \endcsname 
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \endcsname 
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.512         \caption
+                      {Comparativa global de ICD por zonas (Abolladura).}
+? 
+
+! LaTeX Error: \begin{frame} on input line 512 ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.513     \end{figure}
+                      
+? 
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.513     \end{figure}
+                      
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.513     \end{figure}
+                      
+? 
+! Too many }'s.
+\endframe ->\egroup 
+                    \begingroup \def \@currenvir {frame}
+l.514 \end{frame}
+                 
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29
+
+]
+[30]
 <figs/resultados/corrosion/003_corrosion_inclined_ICD_vs_porcenaje_de_daño.png
-, id=3267, 612.1269pt x 396.0396pt>
+, id=3689, 612.1269pt x 396.0396pt>
 File: figs/resultados/corrosion/003_corrosion_inclined_ICD_vs_porcenaje_de_dañ
 o.png Graphic file (type png)
 <use figs/resultados/corrosion/003_corrosion_inclined_ICD_vs_porcenaje_de_daño
 .png>
 Package pdftex.def Info: figs/resultados/corrosion/003_corrosion_inclined_ICD_v
-s_porcenaje_de_daño.png  used on input line 494.
+s_porcenaje_de_daño.png  used on input line 533.
 (pdftex.def)             Requested size: 208.00327pt x 134.57312pt.
 <figs/resultados/corrosion/004_corrosion_tipo_de_elemeneto_beam_brace_inclined_
-led_ICD_vs_porcentaje_de_daño.png, id=3268, 724.1454pt x 449.5194pt>
+led_ICD_vs_porcentaje_de_daño.png, id=3690, 724.1454pt x 449.5194pt>
 File: figs/resultados/corrosion/004_corrosion_tipo_de_elemeneto_beam_brace_incl
 ined_led_ICD_vs_porcentaje_de_daño.png Graphic file (type png)
 <use figs/resultados/corrosion/004_corrosion_tipo_de_elemeneto_beam_brace_incli
 ned_led_ICD_vs_porcentaje_de_daño.png>
 Package pdftex.def Info: figs/resultados/corrosion/004_corrosion_tipo_de_elemen
 eto_beam_brace_inclined_led_ICD_vs_porcentaje_de_daño.png  used on input line 
-494.
+533.
 (pdftex.def)             Requested size: 208.00327pt x 129.11578pt.
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[28
+ [31
 
  <./figs/resultados/corrosion/003_corrosion_inclined_ICD_vs_porcenaje_de_daño.
 png> <./figs/resultados/corrosion/004_corrosion_tipo_de_elemeneto_beam_brace_in
 clined_led_ICD_vs_porcentaje_de_daño.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 502--502
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
 <figs/resultados/corrosion/005_corrosion_comparativa_global_de_ICD_vs_daño_por
-_zona_mudline_medio_y_splash_zone.png, id=3384, 1004.553pt x 570.933pt>
+_zona_mudline_medio_y_splash_zone.png, id=3813, 1004.553pt x 570.933pt>
 File: figs/resultados/corrosion/005_corrosion_comparativa_global_de_ICD_vs_dañ
 o_por_zona_mudline_medio_y_splash_zone.png Graphic file (type png)
 <use figs/resultados/corrosion/005_corrosion_comparativa_global_de_ICD_vs_daño
 _por_zona_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: figs/resultados/corrosion/005_corrosion_comparativa_gl
 obal_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png  used on input li
-ne 502.
+ne 541.
 (pdftex.def)             Requested size: 346.67653pt x 197.03307pt.
 
-Overfull \vbox (35.15602pt too high) detected at line 502
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[29
-
- <./figs/resultados/corrosion/005_corrosion_comparativa_global_de_ICD_vs_daño_
-por_zona_mudline_medio_y_splash_zone.png>]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 517--517
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[30
-
-]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 531--531
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[31
-
-]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 544--544
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+Overfull \vbox (35.15602pt too high) detected at line 541
  []
 
 [32
 
-]
-Overfull \hbox (305.40007pt too wide) in paragraph at lines 583--583
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+ <./figs/resultados/corrosion/005_corrosion_comparativa_global_de_ICD_vs_daño_
+por_zona_mudline_medio_y_splash_zone.png>] [33
+
+] [34
+
+] [35
+
+] [36
+
+ </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [37
 
 
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[33
-
- </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[34
-
-
-]
-Overfull \hbox (307.5251pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[35
+] [38
 
 
 ]
@@ -1641,7 +2123,8 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `presentacion.snm'.
 
- (./presentacion.aux
+
+(./presentacion.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1657,10 +2140,10 @@ Package rerunfilecheck Info: File `presentacion.out' has not changed.
 (rerunfilecheck)             Checksum: D7B21FF456A63E6B29435401957B6A21;1111.
  ) 
 Here is how much of TeX's memory you used:
- 25006 strings out of 476047
- 492103 string characters out of 5792076
+ 25017 strings out of 476047
+ 490647 string characters out of 5792076
  1960975 words of memory out of 5000000
- 46453 multiletter control sequences out of 15000+600000
+ 46458 multiletter control sequences out of 15000+600000
  572496 words of font info for 89 fonts, out of 8000000 for 9000
  85 hyphenation exceptions out of 8191
  101i,19n,107p,392b,793s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1677,10 +2160,10 @@ fonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on presentacion.pdf (35 pages, 7400957 bytes).
+Output written on presentacion.pdf (38 pages, 9292434 bytes).
 PDF statistics:
- 4151 PDF objects out of 4296 (max. 8388607)
- 2497 compressed objects within 25 object streams
- 92 named destinations out of 1000 (max. 500000)
- 381 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4617 PDF objects out of 5155 (max. 8388607)
+ 2812 compressed objects within 29 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
