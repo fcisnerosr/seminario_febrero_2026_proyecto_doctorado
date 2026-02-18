@@ -339,7 +339,6 @@
         \textbf{Caracteristicas:}
         \begin{itemize}
             \item Estructura tipo Jacket de 4 patas.
-            \item Sistema MDOF discretizado.
             \item Inclusion de masa hidrodinamica e interaccion suelo-estructura.
         \end{itemize}
         
@@ -434,50 +433,39 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}{Recordatorio: Formulación Matemática del ICD}
-    \textit{(Recordatorio de la métrica utilizada)}
-    
-    % Se cambió el título del bloque para resaltar la novedad
-    % \begin{block}{Contribución Metodológica: \textbf{Indice de Calidad de Detección}}
-        Se propone una \textbf{métrica inédita} que integra tres factores normalizados para evaluar la calidad de la solución:
+\begin{frame}{Recordatorio: Formulacion Matematica del ICD}
+    \begin{block}{Contribucion Metodologica: Indice de Calidad de Deteccion}
+        Se propone una \textbf{metrica inedita} que integra tres factores normalizados para evaluar la calidad de la solucion:
         \begin{equation}
             \text{ICD} = D \times C_{\text{norm}}(\delta) \times P_{\text{FP}}(N_{\text{FP}})
         \end{equation}
-        \vspace{0.1cm}
-        \centering \small \textbf{Interpretación:} $\text{ICD} \in [0, 1]$ \quad (Donde $1.0 =$ Detección perfecta).
+        \centering \textbf{Interpretacion:} $\text{ICD} \in [0, 1]$ \quad (Donde 1.0 = Deteccion perfecta).
     \end{block}
-
-    \vspace{0.2cm}
-
+    
+    \vspace{0.3cm}
+    
     \begin{columns}[t]
-        \begin{column}{0.32\textwidth}
-            \textbf{1. Éxito ($D$)}
-            \begin{itemize} \footnotesize
-                \item \textbf{1.0:} Exacta.
-                \item \textbf{0.5:} Adyacente.
-                \item \textbf{0.0:} Fallo.
-            \end{itemize}
-        \end{column}
-
-        \begin{column}{0.34\textwidth}
-            \textbf{2. Confianza ($C_{\text{norm}}$)}
-            \begin{itemize} \scriptsize
-                \item Escalamiento logarítmico ($\alpha=0.1$).
-            \end{itemize}
-            \vspace{0.1cm}
-            \centering \small
-            $\displaystyle \frac{\ln(1 + \alpha \delta)}{\ln(1 + \alpha \delta_{\max})}$
-        \end{column}
-
-        \begin{column}{0.30\textwidth}
-            \textbf{3. Penalización ($P_{\text{FP}}$)}
-            \begin{itemize} \scriptsize
-                \item Decaimiento exp. ($\beta=0.15$).
-            \end{itemize}
-            \vspace{0.1cm}
-            \centering \small
-            $\displaystyle e^{- \beta N_{\text{FP}}}$
-        \end{column}
+        \column{0.30\textwidth}
+        \textbf{1. Exito ($D$)}
+        \begin{itemize}
+            \item \textbf{1.0:} Exacta.
+            \item \textbf{0.5:} Adyacente.
+            \item \textbf{0.0:} Fallo.
+        \end{itemize}
+        
+        \column{0.35\textwidth}
+        \textbf{2. Confianza ($C_{\text{norm}}$)}
+        \begin{itemize}
+            \item Escalamiento logaritmico ($\alpha=0.1$).
+            \[ \frac{\ln(1+\alpha\delta)}{\ln(1+\alpha\delta_{\text{max}})} \]
+        \end{itemize}
+        
+        \column{0.35\textwidth}
+        \textbf{3. Penalizacion ($P_{\text{FP}}$)}
+        \begin{itemize}
+            \item Decaimiento exp. ($\beta=0.15$).
+            \[ e^{-\beta N_{\text{FP}}} \]
+        \end{itemize}
     \end{columns}
 \end{frame}
 
@@ -486,7 +474,11 @@
 \section{Resultados}
 
 \begin{frame}{Resultados: Escenario de Abolladura}
-    Introduccion al analisis de sensibilidad del ICD ante abolladuras en diferentes elementos.
+    \begin{figure}
+        \centering
+        \includegraphics[height=0.75\textheight,keepaspectratio]{figs/000_08_braces_vigas_piernas_inclinadas.png}
+        \caption{ubicacion de elementos estructurales en el modelo de plataforma marina}
+    \end{figure}
 \end{frame}
 
 \begin{frame}{Abolladura: Vigas vs Braces}
@@ -513,11 +505,10 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}{Resultados: Escenario de Corrosion}
-    Evaluacion de la metodologia ante perdida de espesor generalizada.
-\end{frame}
-
 \begin{frame}{Corrosion: Elementos Inclinados y Resumen}
+    \centering
+    \textit{(Evaluacion de la metodologia ante perdida de espesor generalizada)}
+    
     \begin{figure}
         \centering
         \begin{subfigure}[b]{0.48\textwidth}
