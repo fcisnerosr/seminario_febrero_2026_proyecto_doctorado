@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.18)  17 FEB 2026 18:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.18)  17 FEB 2026 18:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -944,7 +944,7 @@ Overfull \hbox (305.40007pt too wide) in paragraph at lines 30--30
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-<./figs//000_logo.png, id=96, 532.23843pt x 200.24812pt>
+<./figs//000_logo.png, id=100, 532.23843pt x 200.24812pt>
 File: ./figs//000_logo.png Graphic file (type png)
 <use ./figs//000_logo.png>
 Package pdftex.def Info: ./figs//000_logo.png  used on input line 68.
@@ -960,25 +960,32 @@ Overfull \vbox (19.2948pt too high) detected at line 68
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs//000_logo.png>]
-(./presentacion.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
+<figs/000_01_plataforma_marina_subestructura_superestructura.png, id=147, 599.9
+9156pt x 286.82156pt>
+File: figs/000_01_plataforma_marina_subestructura_superestructura.png Graphic f
+ile (type png)
+<use figs/000_01_plataforma_marina_subestructura_superestructura.png>
+Package pdftex.def Info: figs/000_01_plataforma_marina_subestructura_superestru
+ctura.png  used on input line 76.
+(pdftex.def)             Requested size: 303.3395pt x 145.01222pt.
+
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [2
 
-]
-<figs/000_01_plataforma_marina_subestructura_superestructura.png, id=246, 599.9
-9156pt x 286.82156pt>
-File: figs/000_01_plataforma_marina_subestructura_superestructura.png Graphic f
-ile (type png)
-<use figs/000_01_plataforma_marina_subestructura_superestructura.png>
-Package pdftex.def Info: figs/000_01_plataforma_marina_subestructura_superestru
-ctura.png  used on input line 81.
-(pdftex.def)             Requested size: 303.3395pt x 145.01222pt.
+ <./figs/000_01_plataforma_marina_subestructura_superestructura.png>]
+<figs/000_02_tipos_de_plataformas.png, id=246, 527.72156pt x 312.41719pt>
+File: figs/000_02_tipos_de_plataformas.png Graphic file (type png)
+<use figs/000_02_tipos_de_plataformas.png>
+Package pdftex.def Info: figs/000_02_tipos_de_plataformas.png  used on input li
+ne 84.
+(pdftex.def)             Requested size: 346.67653pt x 205.23302pt.
+
+Overfull \vbox (43.35597pt too high) detected at line 84
+ []
+
 
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -986,17 +993,34 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
 [3
 
- <./figs/000_01_plataforma_marina_subestructura_superestructura.png>]
-<figs/000_02_tipos_de_plataformas.png, id=310, 527.72156pt x 312.41719pt>
-File: figs/000_02_tipos_de_plataformas.png Graphic file (type png)
-<use figs/000_02_tipos_de_plataformas.png>
-Package pdftex.def Info: figs/000_02_tipos_de_plataformas.png  used on input li
-ne 89.
-(pdftex.def)             Requested size: 346.67653pt x 205.23302pt.
+ <./figs/000_02_tipos_de_plataformas.png>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 105
+.
 
-Overfull \vbox (43.35597pt too high) detected at line 89
- []
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 105
+.
 
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+<./figs//001_plataformas_con_abolladuras_al_borde_copaso.png, id=316, 274.02374
+pt x 160.34906pt>
+File: ./figs//001_plataformas_con_abolladuras_al_borde_copaso.png Graphic file 
+(type png)
+<use ./figs//001_plataformas_con_abolladuras_al_borde_copaso.png>
+Package pdftex.def Info: ./figs//001_plataformas_con_abolladuras_al_borde_copas
+o.png  used on input line 105.
+(pdftex.def)             Requested size: 173.33826pt x 101.43393pt.
 
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1004,34 +1028,14 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
 [4
 
- <./figs/000_02_tipos_de_plataformas.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 110
-.
+ <./figs//001_plataformas_con_abolladuras_al_borde_copaso.png>]
+<figs/000_03_danos_en_plataformas_reales.png, id=387, 911.65594pt x 234.8775pt>
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 110
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 110.
-
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
-<./figs//001_plataformas_con_abolladuras_al_borde_copaso.png, id=377, 274.02374
-pt x 160.34906pt>
-File: ./figs//001_plataformas_con_abolladuras_al_borde_copaso.png Graphic file 
-(type png)
-<use ./figs//001_plataformas_con_abolladuras_al_borde_copaso.png>
-Package pdftex.def Info: ./figs//001_plataformas_con_abolladuras_al_borde_copas
-o.png  used on input line 110.
-(pdftex.def)             Requested size: 173.33826pt x 101.43393pt.
+File: figs/000_03_danos_en_plataformas_reales.png Graphic file (type png)
+<use figs/000_03_danos_en_plataformas_reales.png>
+Package pdftex.def Info: figs/000_03_danos_en_plataformas_reales.png  used on i
+nput line 112.
+(pdftex.def)             Requested size: 325.00801pt x 83.7351pt.
 
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1039,14 +1043,13 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
 [5
 
- <./figs//001_plataformas_con_abolladuras_al_borde_copaso.png>]
-<figs/000_03_danos_en_plataformas_reales.png, id=444, 911.65594pt x 234.8775pt>
-
-File: figs/000_03_danos_en_plataformas_reales.png Graphic file (type png)
-<use figs/000_03_danos_en_plataformas_reales.png>
-Package pdftex.def Info: figs/000_03_danos_en_plataformas_reales.png  used on i
-nput line 117.
-(pdftex.def)             Requested size: 325.00801pt x 83.7351pt.
+ <./figs/000_03_danos_en_plataformas_reales.png>]
+<figs/000_04_dano_real_corrosion_2.png, id=456, 837.1275pt x 276.28218pt>
+File: figs/000_04_dano_real_corrosion_2.png Graphic file (type png)
+<use figs/000_04_dano_real_corrosion_2.png>
+Package pdftex.def Info: figs/000_04_dano_real_corrosion_2.png  used on input l
+ine 119.
+(pdftex.def)             Requested size: 325.00801pt x 107.26059pt.
 
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1054,13 +1057,17 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
 [6
 
- <./figs/000_03_danos_en_plataformas_reales.png>]
-<figs/000_04_dano_real_corrosion_2.png, id=508, 837.1275pt x 276.28218pt>
-File: figs/000_04_dano_real_corrosion_2.png Graphic file (type png)
-<use figs/000_04_dano_real_corrosion_2.png>
-Package pdftex.def Info: figs/000_04_dano_real_corrosion_2.png  used on input l
-ine 124.
-(pdftex.def)             Requested size: 325.00801pt x 107.26059pt.
+ <./figs/000_04_dano_real_corrosion_2.png>]
+<figs/000_04_dano_real_corrosion.png, id=524, 315.42844pt x 210.03468pt>
+File: figs/000_04_dano_real_corrosion.png Graphic file (type png)
+<use figs/000_04_dano_real_corrosion.png>
+Package pdftex.def Info: figs/000_04_dano_real_corrosion.png  used on input lin
+e 126.
+(pdftex.def)             Requested size: 325.00801pt x 216.42787pt.
+
+Overfull \vbox (28.55083pt too high) detected at line 126
+ []
+
 
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1068,15 +1075,17 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
 [7
 
- <./figs/000_04_dano_real_corrosion_2.png>]
-<figs/000_04_dano_real_corrosion.png, id=574, 315.42844pt x 210.03468pt>
-File: figs/000_04_dano_real_corrosion.png Graphic file (type png)
-<use figs/000_04_dano_real_corrosion.png>
-Package pdftex.def Info: figs/000_04_dano_real_corrosion.png  used on input lin
-e 131.
-(pdftex.def)             Requested size: 325.00801pt x 216.42787pt.
+ <./figs/000_04_dano_real_corrosion.png>]
+<figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png, id=594, 527.72
+156pt x 356.0803pt>
+File: figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png Graphic fi
+le (type png)
+<use figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png>
+Package pdftex.def Info: figs/000_06_actualmente_se_realizan_inspecciones_con_b
+uzos.png  used on input line 133.
+(pdftex.def)             Requested size: 325.00801pt x 219.29507pt.
 
-Overfull \vbox (28.55083pt too high) detected at line 131
+Overfull \vbox (31.41803pt too high) detected at line 133
  []
 
 
@@ -1086,19 +1095,15 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
 [8
 
- <./figs/000_04_dano_real_corrosion.png>]
-<figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png, id=639, 527.72
-156pt x 356.0803pt>
-File: figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png Graphic fi
-le (type png)
-<use figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png>
+ <./figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png>]
+<figs/000_06_actualmente_se_realizan_inspecciones_con_buzos2.png, id=663, 735.4
+9782pt x 398.23781pt>
+File: figs/000_06_actualmente_se_realizan_inspecciones_con_buzos2.png Graphic f
+ile (type png)
+<use figs/000_06_actualmente_se_realizan_inspecciones_con_buzos2.png>
 Package pdftex.def Info: figs/000_06_actualmente_se_realizan_inspecciones_con_b
-uzos.png  used on input line 138.
-(pdftex.def)             Requested size: 325.00801pt x 219.29507pt.
-
-Overfull \vbox (31.41803pt too high) detected at line 138
- []
-
+uzos2.png  used on input line 140.
+(pdftex.def)             Requested size: 325.00801pt x 175.97867pt.
 
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1106,48 +1111,51 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
 [9
 
- <./figs/000_06_actualmente_se_realizan_inspecciones_con_buzos.png>]
-<figs/000_06_actualmente_se_realizan_inspecciones_con_buzos2.png, id=703, 735.4
-9782pt x 398.23781pt>
-File: figs/000_06_actualmente_se_realizan_inspecciones_con_buzos2.png Graphic f
-ile (type png)
-<use figs/000_06_actualmente_se_realizan_inspecciones_con_buzos2.png>
-Package pdftex.def Info: figs/000_06_actualmente_se_realizan_inspecciones_con_b
-uzos2.png  used on input line 145.
-(pdftex.def)             Requested size: 325.00801pt x 175.97867pt.
-
+ <./figs/000_06_actualmente_se_realizan_inspecciones_con_buzos2.png>]
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [10
 
- <./figs/000_06_actualmente_se_realizan_inspecciones_con_buzos2.png>]
+]
+<./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrapa
+da.png, id=801, 429.85594pt x 208.52907pt>
+File: ./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_a
+trapada.png Graphic file (type png)
+<use ./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_at
+rapada.png>
+Package pdftex.def Info: ./figs//001_modelo_plataforma_con_elemento_tubular_mas
+a_adherida_y_masa_atrapada.png  used on input line 183.
+(pdftex.def)             Requested size: 156.0004pt x 75.67815pt.
+<./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino.
+png, id=802, 490.83376pt x 249.93375pt>
+File: ./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_ma
+rino.png Graphic file (type png)
+<use ./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_mar
+ino.png>
+Package pdftex.def Info: ./figs//001_modelo_plataforma_con_elemento_tubular_mas
+a_de_crecimiento_marino.png  used on input line 183.
+(pdftex.def)             Requested size: 156.0004pt x 79.43507pt.
+
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [11
 
-]
-<./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrapa
-da.png, id=834, 429.85594pt x 208.52907pt>
-File: ./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_a
-trapada.png Graphic file (type png)
-<use ./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_at
-rapada.png>
-Package pdftex.def Info: ./figs//001_modelo_plataforma_con_elemento_tubular_mas
-a_adherida_y_masa_atrapada.png  used on input line 188.
-(pdftex.def)             Requested size: 156.0004pt x 75.67815pt.
-<./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino.
-png, id=835, 490.83376pt x 249.93375pt>
-File: ./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_ma
-rino.png Graphic file (type png)
-<use ./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_mar
-ino.png>
-Package pdftex.def Info: ./figs//001_modelo_plataforma_con_elemento_tubular_mas
-a_de_crecimiento_marino.png  used on input line 188.
-(pdftex.def)             Requested size: 156.0004pt x 79.43507pt.
+ <./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrap
+ada.png> <./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimient
+o_marino.png>]
+<./figs//004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_por_
+corrosion.png, id=876, 304.88907pt x 192.72pt>
+File: ./figs//004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular
+_por_corrosion.png Graphic file (type png)
+<use ./figs//004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_
+por_corrosion.png>
+Package pdftex.def Info: ./figs//004_caracterizacion_de_como_se_reduce_el_espes
+or_elemento_tubular_por_corrosion.png  used on input line 200.
+(pdftex.def)             Requested size: 173.33826pt x 109.56923pt.
 
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1155,18 +1163,17 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
 [12
 
- <./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrap
-ada.png> <./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimient
-o_marino.png>]
-<./figs//004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_por_
-corrosion.png, id=904, 304.88907pt x 192.72pt>
-File: ./figs//004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular
-_por_corrosion.png Graphic file (type png)
-<use ./figs//004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_
-por_corrosion.png>
-Package pdftex.def Info: ./figs//004_caracterizacion_de_como_se_reduce_el_espes
-or_elemento_tubular_por_corrosion.png  used on input line 205.
-(pdftex.def)             Requested size: 173.33826pt x 109.56923pt.
+ <./figs//004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_por
+_corrosion.png>]
+<./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura.png,
+ id=945, 183.68625pt x 156.585pt>
+File: ./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura
+.png Graphic file (type png)
+<use ./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura.
+png>
+Package pdftex.def Info: ./figs//004_seccion_transversal_de_elemento_tubular_pa
+rametros_abolladura.png  used on input line 217.
+(pdftex.def)             Requested size: 151.66974pt x 129.30128pt.
 
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1174,26 +1181,15 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
 [13
 
- <./figs//004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_por
-_corrosion.png>]
-<./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura.png,
- id=971, 183.68625pt x 156.585pt>
-File: ./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura
-.png Graphic file (type png)
-<use ./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura.
-png>
-Package pdftex.def Info: ./figs//004_seccion_transversal_de_elemento_tubular_pa
-rametros_abolladura.png  used on input line 222.
-(pdftex.def)             Requested size: 151.66974pt x 129.30128pt.
-
+ <./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura.png
+>]
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [14
 
- <./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura.png
->]
+]
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1202,16 +1198,16 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
 ]
 <./figs//005_metogologia_propuesta_para_identificar_daños_en_plataformas_reale
-s.jpg, id=1102, 1560.83125pt x 779.91376pt>
+s.jpg, id=1171, 1560.83125pt x 779.91376pt>
 File: ./figs//005_metogologia_propuesta_para_identificar_daños_en_plataformas_
 reales.jpg Graphic file (type jpg)
 <use ./figs//005_metogologia_propuesta_para_identificar_daños_en_plataformas_r
 eales.jpg>
 Package pdftex.def Info: ./figs//005_metogologia_propuesta_para_identificar_da�
-�os_en_plataformas_reales.jpg  used on input line 246.
+�os_en_plataformas_reales.jpg  used on input line 286.
 (pdftex.def)             Requested size: 325.00801pt x 162.39436pt.
 
-Overfull \vbox (0.51732pt too high) detected at line 246
+Overfull \vbox (0.51732pt too high) detected at line 286
  []
 
 
@@ -1223,15 +1219,15 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
  <./figs//005_metogologia_propuesta_para_identificar_daños_en_plataformas_real
 es.jpg>]
-<figs/000_05_explicacion_de_un_AG_con_jirafas.png, id=1167, 864.98157pt x 426.0
+<figs/000_05_explicacion_de_un_AG_con_jirafas.png, id=1239, 864.98157pt x 426.0
 9187pt>
 File: figs/000_05_explicacion_de_un_AG_con_jirafas.png Graphic file (type png)
 <use figs/000_05_explicacion_de_un_AG_con_jirafas.png>
 Package pdftex.def Info: figs/000_05_explicacion_de_un_AG_con_jirafas.png  used
- on input line 254.
+ on input line 294.
 (pdftex.def)             Requested size: 346.67653pt x 170.7718pt.
 
-Overfull \vbox (8.89476pt too high) detected at line 254
+Overfull \vbox (8.89476pt too high) detected at line 294
  []
 
 
@@ -1243,16 +1239,16 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
  <./figs/000_05_explicacion_de_un_AG_con_jirafas.png>]
 <./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png, i
-d=1231, 302.63063pt x 650.43pt>
+d=1308, 302.63063pt x 650.43pt>
 File: ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.p
 ng Graphic file (type png)
 <use ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.pn
 g>
 Package pdftex.def Info: ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_d
-e_caso_de_estudio.png  used on input line 274.
+e_caso_de_estudio.png  used on input line 314.
 (pdftex.def)             Requested size: 84.60208pt x 181.82985pt.
 
-Overfull \vbox (21.9528pt too high) detected at line 274
+Overfull \vbox (21.9528pt too high) detected at line 314
  []
 
 
@@ -1264,17 +1260,17 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
  <./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png>]
 <./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.p
-ng, id=1296, 281.55188pt x 674.52pt>
+ng, id=1377, 281.55188pt x 674.52pt>
 File: ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estu
 dio.png Graphic file (type png)
 <use ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estud
 io.png>
 Package pdftex.def Info: ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jac
-ket_de_caso_de_estudio.png  used on input line 292.
+ket_de_caso_de_estudio.png  used on input line 332.
 (pdftex.def)             Requested size: 71.1525pt x 170.46162pt.
 <./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio_pero_c
 on_colores_para_saber_que_secciones_transversales_estan_ubicados_con_una_tabla.
-png, id=1297, 183.084pt x 406.6392pt>
+png, id=1378, 183.084pt x 406.6392pt>
 File: ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio_p
 ero_con_colores_para_saber_que_secciones_transversales_estan_ubicados_con_una_t
 abla.png Graphic file (type png)
@@ -1283,7 +1279,7 @@ ro_con_colores_para_saber_que_secciones_transversales_estan_ubicados_con_una_ta
 bla.png>
 Package pdftex.def Info: ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_d
 e_caso_de_estudio_pero_con_colores_para_saber_que_secciones_transversales_estan
-_ubicados_con_una_tabla.png  used on input line 292.
+_ubicados_con_una_tabla.png  used on input line 332.
 (pdftex.def)             Requested size: 76.74948pt x 170.46465pt.
 
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
@@ -1299,7 +1295,7 @@ abla.png>]
 ! Undefined control sequence.
 \beamer@doifinframe ...e 2.18 & 38.1 & \cellcolor 
                                                   {blue!80} \\ 1.98 & 38.1 &...
-l.324 \end{frame}
+l.364 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1310,7 +1306,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@doifinframe ...\ 1.98 & 38.1 & \cellcolor 
                                                   {violet!80} \\ 1.57 & 25.4...
-l.324 \end{frame}
+l.364 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1321,7 +1317,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@doifinframe ...\ 1.57 & 25.4 & \cellcolor 
                                                   {green!80!black} \\ 1.57 &...
-l.324 \end{frame}
+l.364 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1332,7 +1328,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@doifinframe ...\ 1.57 & 25.4 & \cellcolor 
                                                   {red!90} \\ \bottomrule \e...
-l.324 \end{frame}
+l.364 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1340,14 +1336,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./figs/016_modelo_colores.png, id=1364, 183.084pt x 406.6392pt>
+<./figs/016_modelo_colores.png, id=1448, 183.084pt x 406.6392pt>
 File: ./figs/016_modelo_colores.png Graphic file (type png)
 <use ./figs/016_modelo_colores.png>
-Package pdftex.def Info: ./figs/016_modelo_colores.png  used on input line 324.
+Package pdftex.def Info: ./figs/016_modelo_colores.png  used on input line 364.
 
 (pdftex.def)             Requested size: 81.86742pt x 181.83185pt.
 
-Overfull \vbox (33.9548pt too high) detected at line 324
+Overfull \vbox (33.9548pt too high) detected at line 364
  []
 
 
@@ -1361,7 +1357,7 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 ! Undefined control sequence.
 \beamer@doifinframe ...e 2.18 & 38.1 & \cellcolor 
                                                   {blue!80} \\ 1.98 & 38.1 &...
-l.359 \end{frame}
+l.399 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1372,7 +1368,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@doifinframe ...\ 1.98 & 38.1 & \cellcolor 
                                                   {violet!80} \\ 1.57 & 25.4...
-l.359 \end{frame}
+l.399 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1383,7 +1379,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@doifinframe ...\ 1.57 & 25.4 & \cellcolor 
                                                   {green!80!black} \\ 1.57 &...
-l.359 \end{frame}
+l.399 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1394,7 +1390,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@doifinframe ...\ 1.57 & 25.4 & \cellcolor 
                                                   {red!90} \\ \bottomrule \e...
-l.359 \end{frame}
+l.399 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1404,11 +1400,11 @@ and I'll forget about whatever was undefined.
 
 File: ./figs/016_modelo_colores.png Graphic file (type png)
 <use ./figs/016_modelo_colores.png>
-Package pdftex.def Info: ./figs/016_modelo_colores.png  used on input line 359.
+Package pdftex.def Info: ./figs/016_modelo_colores.png  used on input line 399.
 
 (pdftex.def)             Requested size: 81.86742pt x 181.83185pt.
 
-Overfull \vbox (33.9548pt too high) detected at line 359
+Overfull \vbox (33.9548pt too high) detected at line 399
  []
 
 
@@ -1426,16 +1422,12 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 [22
 
 ]
-<./figs/019_niveles_mudline.png, id=1557, 397.485pt x 599.99156pt>
+<./figs/019_niveles_mudline.png, id=1653, 397.485pt x 599.99156pt>
 File: ./figs/019_niveles_mudline.png Graphic file (type png)
 <use ./figs/019_niveles_mudline.png>
-Package pdftex.def Info: ./figs/019_niveles_mudline.png  used on input line 389
+Package pdftex.def Info: ./figs/019_niveles_mudline.png  used on input line 429
 .
-(pdftex.def)             Requested size: 120.45944pt x 181.82988pt.
-
-Overfull \vbox (19.95284pt too high) detected at line 389
- []
-
+(pdftex.def)             Requested size: 90.34003pt x 136.36554pt.
 
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1452,22 +1444,22 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
 ]
 <figs/resultados/abolladura/001_abolladura_vigas_ICD_vs_porcentaje_de_daño.png
-, id=1686, 612.1269pt x 396.0396pt>
+, id=1790, 612.1269pt x 396.0396pt>
 File: figs/resultados/abolladura/001_abolladura_vigas_ICD_vs_porcentaje_de_dañ
 o.png Graphic file (type png)
 <use figs/resultados/abolladura/001_abolladura_vigas_ICD_vs_porcentaje_de_daño
 .png>
 Package pdftex.def Info: figs/resultados/abolladura/001_abolladura_vigas_ICD_vs
-_porcentaje_de_daño.png  used on input line 413.
+_porcentaje_de_daño.png  used on input line 453.
 (pdftex.def)             Requested size: 208.00327pt x 134.57312pt.
 <figs/resultados/abolladura/002_abolladura_brace_ICD_vs_porcentaje_de_daño.png
-, id=1687, 612.1269pt x 396.0396pt>
+, id=1791, 612.1269pt x 396.0396pt>
 File: figs/resultados/abolladura/002_abolladura_brace_ICD_vs_porcentaje_de_dañ
 o.png Graphic file (type png)
 <use figs/resultados/abolladura/002_abolladura_brace_ICD_vs_porcentaje_de_daño
 .png>
 Package pdftex.def Info: figs/resultados/abolladura/002_abolladura_brace_ICD_vs
-_porcentaje_de_daño.png  used on input line 413.
+_porcentaje_de_daño.png  used on input line 453.
 (pdftex.def)             Requested size: 208.00327pt x 134.57312pt.
 
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
@@ -1480,17 +1472,17 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 png> <./figs/resultados/abolladura/002_abolladura_brace_ICD_vs_porcentaje_de_da
 ño.png>]
 <figs/resultados/abolladura/005_abolladura_comparativa_global_de_ICD_vs_daño_p
-or_zona_mudline_medio_y_splash_zone.png, id=1754, 1003.8303pt x 570.933pt>
+or_zona_mudline_medio_y_splash_zone.png, id=1862, 1003.8303pt x 570.933pt>
 File: figs/resultados/abolladura/005_abolladura_comparativa_global_de_ICD_vs_da
 ño_por_zona_mudline_medio_y_splash_zone.png Graphic file (type png)
 <use figs/resultados/abolladura/005_abolladura_comparativa_global_de_ICD_vs_da�
 �o_por_zona_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: figs/resultados/abolladura/005_abolladura_comparativa_
 global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png  used on input 
-line 421.
+line 461.
 (pdftex.def)             Requested size: 346.67653pt x 197.17245pt.
 
-Overfull \vbox (35.29541pt too high) detected at line 421
+Overfull \vbox (35.29541pt too high) detected at line 461
  []
 
 
@@ -1510,23 +1502,23 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 
 ]
 <figs/resultados/corrosion/003_corrosion_inclined_ICD_vs_porcenaje_de_daño.png
-, id=1884, 612.1269pt x 396.0396pt>
+, id=2000, 612.1269pt x 396.0396pt>
 File: figs/resultados/corrosion/003_corrosion_inclined_ICD_vs_porcenaje_de_dañ
 o.png Graphic file (type png)
 <use figs/resultados/corrosion/003_corrosion_inclined_ICD_vs_porcenaje_de_daño
 .png>
 Package pdftex.def Info: figs/resultados/corrosion/003_corrosion_inclined_ICD_v
-s_porcenaje_de_daño.png  used on input line 440.
+s_porcenaje_de_daño.png  used on input line 480.
 (pdftex.def)             Requested size: 208.00327pt x 134.57312pt.
 <figs/resultados/corrosion/004_corrosion_tipo_de_elemeneto_beam_brace_inclined_
-led_ICD_vs_porcentaje_de_daño.png, id=1885, 724.1454pt x 449.5194pt>
+led_ICD_vs_porcentaje_de_daño.png, id=2001, 724.1454pt x 449.5194pt>
 File: figs/resultados/corrosion/004_corrosion_tipo_de_elemeneto_beam_brace_incl
 ined_led_ICD_vs_porcentaje_de_daño.png Graphic file (type png)
 <use figs/resultados/corrosion/004_corrosion_tipo_de_elemeneto_beam_brace_incli
 ned_led_ICD_vs_porcentaje_de_daño.png>
 Package pdftex.def Info: figs/resultados/corrosion/004_corrosion_tipo_de_elemen
 eto_beam_brace_inclined_led_ICD_vs_porcentaje_de_daño.png  used on input line 
-440.
+480.
 (pdftex.def)             Requested size: 208.00327pt x 129.11578pt.
 
 Overfull \hbox (307.5251pt too wide) has occurred while \output is active
@@ -1539,17 +1531,17 @@ Overfull \hbox (307.5251pt too wide) has occurred while \output is active
 png> <./figs/resultados/corrosion/004_corrosion_tipo_de_elemeneto_beam_brace_in
 clined_led_ICD_vs_porcentaje_de_daño.png>]
 <figs/resultados/corrosion/005_corrosion_comparativa_global_de_ICD_vs_daño_por
-_zona_mudline_medio_y_splash_zone.png, id=1951, 1004.553pt x 570.933pt>
+_zona_mudline_medio_y_splash_zone.png, id=2071, 1004.553pt x 570.933pt>
 File: figs/resultados/corrosion/005_corrosion_comparativa_global_de_ICD_vs_dañ
 o_por_zona_mudline_medio_y_splash_zone.png Graphic file (type png)
 <use figs/resultados/corrosion/005_corrosion_comparativa_global_de_ICD_vs_daño
 _por_zona_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: figs/resultados/corrosion/005_corrosion_comparativa_gl
 obal_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png  used on input li
-ne 448.
+ne 488.
 (pdftex.def)             Requested size: 346.67653pt x 197.03307pt.
 
-Overfull \vbox (35.15602pt too high) detected at line 448
+Overfull \vbox (35.15602pt too high) detected at line 488
  []
 
 
@@ -1625,28 +1617,30 @@ Package rerunfilecheck Info: File `presentacion.out' has not changed.
 (rerunfilecheck)             Checksum: D7B21FF456A63E6B29435401957B6A21;1111.
  ) 
 Here is how much of TeX's memory you used:
- 25084 strings out of 478287
- 499029 string characters out of 5849289
- 776364 words of memory out of 5000000
- 42659 multiletter control sequences out of 15000+600000
- 483518 words of font info for 79 fonts, out of 8000000 for 9000
+ 25093 strings out of 478287
+ 499114 string characters out of 5849289
+ 779733 words of memory out of 5000000
+ 42670 multiletter control sequences out of 15000+600000
+ 484707 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,122p,392b,869s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,19n,122p,392b,779s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmtt9.pfb>
-Output written on presentacion.pdf (35 pages, 7360744 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on presentacion.pdf (35 pages, 7394240 bytes).
 PDF statistics:
- 2501 PDF objects out of 2984 (max. 8388607)
- 2321 compressed objects within 24 object streams
+ 2658 PDF objects out of 2984 (max. 8388607)
+ 2461 compressed objects within 25 object streams
  92 named destinations out of 1000 (max. 500000)
- 315 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
