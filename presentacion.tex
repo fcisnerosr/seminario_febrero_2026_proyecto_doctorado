@@ -346,10 +346,10 @@
                     \textbf{Diámetro} & \textbf{Espesor} & \textbf{Identificador} \\
                     \textbf{Ext. (m)} & \textbf{(mm)} & \textbf{Color} \\
                     \midrule
-                    2.18 & 38.1 & \cellcolor{blue!80} \\
-                    1.98 & 38.1 & \cellcolor{violet!80} \\
-                    1.57 & 25.4 & \cellcolor{green!80!black} \\
-                    1.57 & 25.4 & \cellcolor{red!90} \\
+                    2.18 & 38.1 & \textcolor{blue!80}{\rule{1.5cm}{0.5cm}} \\
+                    1.98 & 38.1 & \textcolor{violet!80}{\rule{1.5cm}{0.5cm}} \\
+                    1.57 & 25.4 & \textcolor{green!80!black}{\rule{1.5cm}{0.5cm}} \\
+                    1.57 & 25.4 & \textcolor{red!90}{\rule{1.5cm}{0.5cm}} \\
                     \bottomrule
                 \end{tabular}
             \end{table}
@@ -390,9 +390,56 @@
 \begin{frame}{Definición de Niveles de Profundidad}
     \begin{figure}
         \centering
-        \includegraphics[width=\linewidth, height=0.6\textheight, keepaspectratio]{./figs/019_niveles_mudline.png}
+        \includegraphics[width=\linewidth, height=0.7\textheight, keepaspectratio]{./figs/019_niveles_mudline.png}
         \caption{Identificación de zonas: Mudline, Sub 1, Sub 2 y Sub 3.}
     \end{figure}
+\end{frame}
+
+\begin{frame}{Recordatorio: Formulación Matemática del ICD}
+    \textit{(Recordatorio de la métrica utilizada)}
+    
+    % Se cambió el título del bloque para resaltar la novedad
+    \begin{block}{Contribución Metodológica: \textbf{Indice de Calidad de Detección}}
+        Se propone una \textbf{métrica inédita} que integra tres factores normalizados para evaluar la calidad de la solución:
+        \begin{equation}
+            \text{ICD} = D \times C_{\text{norm}}(\delta) \times P_{\text{FP}}(N_{\text{FP}})
+        \end{equation}
+        \vspace{0.1cm}
+        \centering \small \textbf{Interpretación:} $\text{ICD} \in [0, 1]$ \quad (Donde $1.0 =$ Detección perfecta).
+    \end{block}
+
+    \vspace{0.2cm}
+
+    \begin{columns}[t]
+        \begin{column}{0.32\textwidth}
+            \textbf{1. Éxito ($D$)}
+            \begin{itemize} \footnotesize
+                \item \textbf{1.0:} Exacta.
+                \item \textbf{0.5:} Adyacente.
+                \item \textbf{0.0:} Fallo.
+            \end{itemize}
+        \end{column}
+
+        \begin{column}{0.34\textwidth}
+            \textbf{2. Confianza ($C_{\text{norm}}$)}
+            \begin{itemize} \scriptsize
+                \item Escalamiento logarítmico ($\alpha=0.1$).
+            \end{itemize}
+            \vspace{0.1cm}
+            \centering \small
+            $\displaystyle \frac{\ln(1 + \alpha \delta)}{\ln(1 + \alpha \delta_{\max})}$
+        \end{column}
+
+        \begin{column}{0.30\textwidth}
+            \textbf{3. Penalización ($P_{\text{FP}}$)}
+            \begin{itemize} \scriptsize
+                \item Decaimiento exp. ($\beta=0.15$).
+            \end{itemize}
+            \vspace{0.1cm}
+            \centering \small
+            $\displaystyle e^{- \beta N_{\text{FP}}}$
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
@@ -465,6 +512,7 @@
         \end{itemize}
         \item \textbf{Fusibles Estructurales:} Las diagonales advierten del deterioro antes de fallos criticos globales.
         \item \textbf{Eficacia del ICD:} Penaliza falsos positivos, mejorando la confianza en la deteccion respecto a metodos tradicionales.
+        \item \textbf{Alcance del estudio:} La validacion se realizo mediante modelos numericos de alta fidelidad. La experimentacion in-situ no fue factible en esta etapa por limitaciones logisticas y de recursos.
     \end{itemize}
 \end{frame}
 
@@ -491,6 +539,7 @@
         \item Extension a estructuras eolicas offshore.
         \item Integracion de algoritmos de Machine Learning hibridos para acelerar la convergencia del AG.
         \item Aplicacion de la metodologia a modelos de plataformas reales.
+        \item Validacion en campo: Aunque la metodologia es aplicable, las pruebas en una plataforma real estan pendientes debido a restricciones presupuestarias y de logistica de acceso.
     \end{itemize}
 \end{frame}
 
