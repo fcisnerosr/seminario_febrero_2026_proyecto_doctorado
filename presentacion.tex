@@ -221,7 +221,7 @@
     \end{columns}
 \end{frame}
 
-Seccion 5: Hipotesis
+% Seccion 5: Hipotesis
 \section{Hipotesis}
 \begin{frame}{Hipotesis de Trabajo}
     \begin{quote}
@@ -288,7 +288,106 @@ Seccion 5: Hipotesis
             \caption{Identificacion de Secciones.}
         \end{subfigure}
     \end{figure}
+
+\end{frame}\begin{frame}{Caso de Estudio: Propiedades Geométricas}
+    \begin{columns}[c]
+        \begin{column}{0.5\textwidth}
+            \centering
+            \textbf{Identificación de secciones:}
+            \vspace{0.5cm}
+            
+            \begin{table}
+                \centering
+                \renewcommand{\arraystretch}{1.5}
+                \begin{tabular}{c c c}
+                    \toprule
+                    \textbf{Diámetro} & \textbf{Espesor} & \textbf{Identificador} \\
+                    \textbf{Ext. (m)} & \textbf{(mm)} & \textbf{Color} \\
+                    \midrule
+                    2.18 & 38.1 & \cellcolor{blue!80} \\
+                    1.98 & 38.1 & \cellcolor{violet!80} \\
+                    1.57 & 25.4 & \cellcolor{green!80!black} \\
+                    1.57 & 25.4 & \cellcolor{red!90} \\
+                    \bottomrule
+                \end{tabular}
+            \end{table}
+        \end{column}
+        
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth, height=0.8\textheight, keepaspectratio]{./figs/016_modelo_colores.png}
+                \caption{Discretización por tipo de sección transversal.}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
+
+
+\begin{frame}{Caso de Estudio: Propiedades Geométricas}
+    \begin{columns}[c]
+        \begin{column}{0.5\textwidth}
+            \centering
+            \textbf{Identificación de secciones:}
+            \vspace{0.5cm}
+            
+            \begin{table}
+                \centering
+                \renewcommand{\arraystretch}{1.5}
+                \begin{tabular}{c c c}
+                    \toprule
+                    \textbf{Diámetro} & \textbf{Espesor} & \textbf{Identificador} \\
+                    \textbf{Ext. (m)} & \textbf{(mm)} & \textbf{Color} \\
+                    \midrule
+                    2.18 & 38.1 & \cellcolor{blue!80} \\
+                    1.98 & 38.1 & \cellcolor{violet!80} \\
+                    1.57 & 25.4 & \cellcolor{green!80!black} \\
+                    1.57 & 25.4 & \cellcolor{red!90} \\
+                    \bottomrule
+                \end{tabular}
+            \end{table}
+        \end{column}
+        
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth, height=0.8\textheight, keepaspectratio]{./figs/016_modelo_colores.png}
+                \caption{Discretización por tipo de sección transversal.}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Desglose de Ejecuciones del AG}
+    \centering
+    
+    \textbf{Desglose del número total de ejecuciones del Algoritmo Genético (AG):}
+    
+    \vspace{0.5cm}
+    
+    \begin{equation*}
+        \text{Total de ejecuciones} = 120 \, \text{elementos} \times 18 \, \text{niveles de daño} = 2160
+    \end{equation*}
+
+    \vspace{0.8cm}
+    
+    Donde los niveles de daño corresponden a:
+    \vspace{0.2cm}
+    
+    \begin{gather*}
+        \text{Niveles de daño} = \{5\%, 10\%, 15\%, \dots, 90\%\} \\
+        \Rightarrow 18 \, \text{niveles en incrementos de } 5\%
+    \end{gather*}
+\end{frame}
+
+\begin{frame}{Definición de Niveles de Profundidad}
+    \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=0.8\textheight, keepaspectratio]{./figs/019_niveles_mudline.png}
+        \caption{Identificación de zonas: Mudline, Sub 1, Sub 2 y Sub 3.}
+    \end{figure}
+\end{frame}
+
 
 % Seccion 8: Resultados
 \section{Resultados}
